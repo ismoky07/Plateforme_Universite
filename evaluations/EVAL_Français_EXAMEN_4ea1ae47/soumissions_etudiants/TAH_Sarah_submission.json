@@ -1,0 +1,17 @@
+{
+  "etudiant_nom": "TAH",
+  "etudiant_prenom": "Sarah",
+  "numero_etudiant": "12345678",
+  "evaluation_id": "4ea1ae47",
+  "date_soumission": "2025-07-17 12:17:04",
+  "type_soumission": "📱 Photos/Scans",
+  "nombre_fichiers": 1,
+  "taille_totale": "0.3 MB",
+  "fichiers_soumis": [
+    {
+      "nom_original": "Sarah__tah.jpeg",
+      "nom_sauvegarde": "copie_page_01_Sarah__tah.jpeg",
+      "taille": 294854
+    }
+  ]
+}

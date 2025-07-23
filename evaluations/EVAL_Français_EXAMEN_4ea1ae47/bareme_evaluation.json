@@ -1,0 +1,33 @@
+{
+  "examen": "EXAMEN",
+  "date": "2025-07-15",
+  "heure_debut": "12:00",
+  "duree": "1h",
+  "note_totale": 20.0,
+  "questions": [
+    {
+      "numero": 1,
+      "intitule": "Analyse stylistique Analysez les procédés stylistiques dans cette phrase de Flaubert : \"Emma se repentait d'avoir aimé ; mais cette pensée, loin de la consoler, l'irritait davantage.\"",
+      "points_total": 10.0,
+      "type": "ouverte",
+      "criteres": [
+        "Pertinence",
+        "Exactitude",
+        "Clarté"
+      ],
+      "mots_cles": []
+    },
+    {
+      "numero": 2,
+      "intitule": "Mouvement littéraire Définissez le romantisme et citez deux caractéristiques principales avec un exemple d'auteur.",
+      "points_total": 10.0,
+      "type": "ouverte",
+      "criteres": [
+        "Pertinence",
+        "Exactitude",
+        "Clarté"
+      ],
+      "mots_cles": []
+    }
+  ]
+}

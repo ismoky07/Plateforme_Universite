@@ -1,0 +1,56 @@
+{
+  "examen": "Test Agent IA - Maths 3ème",
+  "date": "2025-06-24",
+  "duree": "1h",
+  "note_totale": 20.0,
+  "questions": [
+    {
+      "numero": 1,
+      "intitule": "Q1 : \"Résoudre 2x + 5 = 13\"",
+      "points_total": 4.0,
+      "type": "calcul",
+      "criteres": [
+        "Pertinence",
+        "Exactitude",
+        "Clarté"
+      ],
+      "mots_cles": []
+    },
+    {
+      "numero": 2,
+      "intitule": "Q2 : \"Calculer f(3) avec f(x) = 2x² - 5x + 1\"",
+      "points_total": 5.0,
+      "type": "calcul",
+      "criteres": [
+        "Pertinence",
+        "Exactitude",
+        "Clarté"
+      ],
+      "mots_cles": []
+    },
+    {
+      "numero": 3,
+      "intitule": "Q3 : \"Factoriser x² - 9\"",
+      "points_total": 4.0,
+      "type": "demonstration",
+      "criteres": [
+        "Pertinence",
+        "Exactitude",
+        "Clarté"
+      ],
+      "mots_cles": []
+    },
+    {
+      "numero": 4,
+      "intitule": "Q4 : \"Rectangle : longueur (2x+3), largeur x, périmètre 26cm. Trouver x\"",
+      "points_total": 7.0,
+      "type": "ouverte",
+      "criteres": [
+        "Pertinence",
+        "Exactitude",
+        "Clarté"
+      ],
+      "mots_cles": []
+    }
+  ]
+}

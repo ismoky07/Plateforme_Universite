@@ -1,0 +1,17 @@
+{
+  "etudiant_nom": "TAH",
+  "etudiant_prenom": "Sarah",
+  "numero_etudiant": "12345678",
+  "evaluation_id": "a6f374bd",
+  "date_soumission": "2025-06-26 22:55:06",
+  "type_soumission": "📄 PDF unique",
+  "nombre_fichiers": 1,
+  "taille_totale": "0.2 MB",
+  "fichiers_soumis": [
+    {
+      "nom_original": "TAH_Sarah.pdf",
+      "nom_sauvegarde": "copie_page_01_TAH_Sarah.pdf",
+      "taille": 198297
+    }
+  ]
+}

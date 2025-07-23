@@ -1,0 +1,45 @@
+{
+  "candidat_nom": "Ouattara",
+  "candidat_prenom": "Ismael",
+  "moyenne_declaree": 12.98,
+  "moyenne_reelle": 11.48,
+  "concordance_globale": false,
+  "discordances": [
+    {
+      "matiere": "francais",
+      "periode": "1er trimestre",
+      "niveau": "1ère",
+      "note_declaree": 16.0,
+      "note_bulletin": 10.2,
+      "ecart": 5.800000000000001,
+      "gravite": "GRAVE"
+    }
+  ],
+  "notes_non_verifiables": [],
+  "verification_identite": {
+    "identite_valide": true,
+    "nom_formulaire": "Ouattara",
+    "prenom_formulaire": "Ismael",
+    "identites_bulletins": [
+      {
+        "nom": "OUATTARA",
+        "prenom": "Ismael",
+        "bulletin": "Terminale_Bulletins TleD 1ère année.pdf"
+      },
+      {
+        "nom": "OUATTARA",
+        "prenom": "Ismael",
+        "bulletin": "2nde_Bulletins 2ndeC.pdf"
+      },
+      {
+        "nom": "OUATTARA",
+        "prenom": "Ismael",
+        "bulletin": "1ère_Bulletins 1ère D.pdf"
+      }
+    ],
+    "usurpation_detectee": false,
+    "details_erreur": null
+  },
+  "timestamp": "2025-06-23T19:50:22.608689",
+  "rapport_excel_path": "..\\forms\\candidatures\\Ouattara_Ismael_20250604_010821\\VERIFICATION_COMPLETE_Ouattara_Ismael_20250623_195022.xlsx"
+}

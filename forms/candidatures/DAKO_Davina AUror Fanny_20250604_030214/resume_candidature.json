@@ -1,0 +1,73 @@
+{
+  "candidat": {
+    "nom": "DAKO",
+    "prenom": "Davina AUror Fanny",
+    "email": "dako@gmail.com",
+    "telephone": "0667546876",
+    "niveau_etude": "master"
+  },
+  "statistiques": {
+    "nombre_notes": 5,
+    "moyenne_generale": 16.22,
+    "nombre_documents": 2
+  },
+  "notes": [
+    {
+      "id": 0,
+      "matiere": "internet des objets",
+      "note": 15.0,
+      "coefficient": 2,
+      "periode": "2ème semestre",
+      "annee": "Master 2"
+    },
+    {
+      "id": 1,
+      "matiere": "technologie Blockchain",
+      "note": 15.0,
+      "coefficient": 2,
+      "periode": "2ème semestre",
+      "annee": "Master 2"
+    },
+    {
+      "id": 2,
+      "matiere": "web service",
+      "note": 17.0,
+      "coefficient": 2,
+      "periode": "2ème semestre",
+      "annee": "Master 2"
+    },
+    {
+      "id": 3,
+      "matiere": "travail en entreprise",
+      "note": 18.0,
+      "coefficient": 1,
+      "periode": "2ème semestre",
+      "annee": "Master 2"
+    },
+    {
+      "id": 4,
+      "matiere": "etalement de spectre",
+      "note": 17.0,
+      "coefficient": 2,
+      "periode": "2ème semestre",
+      "annee": "Master 1"
+    }
+  ],
+  "documents": [
+    {
+      "annee": "Master 1",
+      "nom_fichier": "Davina DAKO_Master1 S2.pdf",
+      "taille_mo": 0.11
+    },
+    {
+      "annee": "Master 2",
+      "nom_fichier": "Davina DAKO_Master2 S3.pdf",
+      "taille_mo": 0.25
+    }
+  ],
+  "soumission": {
+    "date": "2025-06-04T03:02:14.177126",
+    "dossier": "candidatures\\DAKO_Davina AUror Fanny_20250604_030214",
+    "reference": "CAND_DAK_202506040302"
+  }
+}
