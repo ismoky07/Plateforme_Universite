@@ -1,7 +1,7 @@
 """
-pages/student/my_results.py - Version avec vérification de publication
-====================================================================
-Page consultation des résultats étudiants - Respecte les statuts de publication
+pages/student/my_results.py - Version CORRIGÉE pour le champ pourcentage manquant
+===============================================================================
+CORRECTION : Gestion défensive des champs manquants (pourcentage, note_maximale, etc.)
 """
 
 import streamlit as st
@@ -12,7 +12,7 @@ from utils.data_manager import get_evaluations_list, clear_all_cache
 from utils.display_helpers import display_header
 
 def show():
-    """Page consultation des résultats avec vérification de publication"""
+    """Page consultation des résultats avec vérification de publication et gestion défensive"""
     if not st.session_state.get('student_logged_in', False):
         st.warning("⚠️ Veuillez vous connecter d'abord")
         return
@@ -45,6 +45,9 @@ def show():
                             result = json.load(f)
                             result['evaluation_info'] = eval_info
                             
+                            # ✅ CORRECTION : Normaliser le résultat avant utilisation
+                            result = _normalize_student_result(result, eval_info)
+                            
                             # VÉRIFICATION DU STATUT DE PUBLICATION
                             publication_status = _get_publication_status(eval_info, result)
                             
@@ -76,6 +79,66 @@ def show():
         st.markdown("---")
         _show_unpublished_results_section(unpublished_evaluations)
 
+def _normalize_student_result(result, eval_info):
+    """✅ NOUVELLE FONCTION : Normalise un résultat étudiant pour éviter les erreurs de champs manquants"""
+    
+    # Récupérer les valeurs avec des défauts sûrs
+    note_totale = result.get('note_totale', 0.0)
+    note_maximale = result.get('note_maximale', eval_info.get('note_totale', 20))
+    
+    # Calculer le pourcentage si manquant
+    if 'pourcentage' not in result or result['pourcentage'] is None:
+        pourcentage = round((note_totale / note_maximale) * 100, 1) if note_maximale > 0 else 0.0
+        result['pourcentage'] = pourcentage
+    
+    # S'assurer que les champs essentiels existent
+    if 'note_maximale' not in result:
+        result['note_maximale'] = note_maximale
+    
+    # Normaliser les champs optionnels
+    result['commentaires_generaux'] = result.get('commentaires_generaux', result.get('commentaires', ''))
+    result['points_forts'] = result.get('points_forts', [])
+    result['points_amelioration'] = result.get('points_amelioration', [])
+    result['conseils_personnalises'] = result.get('conseils_personnalises', [])
+    result['questions'] = result.get('questions', [])
+    result['rang_classe'] = result.get('rang_classe', 'N/A')
+    result['diagnostic_performance'] = result.get('diagnostic_performance', '')
+    
+    # Normaliser les questions avec leurs pourcentages
+    if 'questions' in result:
+        normalized_questions = []
+        for question in result['questions']:
+            normalized_question = _normalize_question_data(question)
+            normalized_questions.append(normalized_question)
+        result['questions'] = normalized_questions
+    
+    # Assurer la compatibilité avec l'alias
+    result['questions_avec_commentaires'] = result.get('questions_avec_commentaires', result['questions'])
+    
+    return result
+
+def _normalize_question_data(question):
+    """Normalise les données d'une question"""
+    
+    # Valeurs de base
+    note = question.get('note', 0)
+    note_max = question.get('note_max', question.get('points_total', 5))
+    
+    # Calculer le pourcentage si manquant
+    if 'pourcentage_reussite' not in question and note_max > 0:
+        question['pourcentage_reussite'] = round((note / note_max) * 100, 1)
+    elif 'pourcentage_reussite' not in question:
+        question['pourcentage_reussite'] = 0.0
+    
+    # Normaliser les autres champs
+    question['numero'] = question.get('numero', 'N/A')
+    question['intitule'] = question.get('intitule', 'Question sans titre')
+    question['type'] = question.get('type', 'ouverte')
+    question['commentaire_intelligent'] = question.get('commentaire_intelligent', question.get('commentaire', ''))
+    question['conseil_personnalise'] = question.get('conseil_personnalise', '')
+    
+    return question
+
 def _get_publication_status(eval_info, result):
     """Détermine le statut de publication d'un résultat"""
     
@@ -91,7 +154,7 @@ def _get_publication_status(eval_info, result):
     return 'brouillon'
 
 def _show_results_summary(published_evaluations, unpublished_evaluations):
-    """Affiche le résumé des résultats selon les statuts de publication"""
+    """Affiche le résumé des résultats selon les statuts de publication avec gestion défensive"""
     
     total_corrections = len(published_evaluations) + len(unpublished_evaluations)
     
@@ -124,9 +187,13 @@ def _show_results_summary(published_evaluations, unpublished_evaluations):
     
     with col4:
         if published_evaluations:
-            notes = [r['note_totale'] for r in published_evaluations]
-            moyenne = sum(notes) / len(notes)
-            st.metric("📈 Moyenne publiée", f"{moyenne:.1f}/20")
+            # ✅ CORRECTION : Accès défensif aux notes
+            notes = [float(r.get('note_totale', 0)) for r in published_evaluations if r.get('note_totale') is not None]
+            if notes:
+                moyenne = sum(notes) / len(notes)
+                st.metric("📈 Moyenne publiée", f"{moyenne:.1f}/20")
+            else:
+                st.metric("📈 Moyenne publiée", "N/A")
         else:
             st.metric("📈 Moyenne publiée", "N/A")
     
@@ -139,10 +206,10 @@ def _show_results_summary(published_evaluations, unpublished_evaluations):
         st.success(f"🎉 **Tous vos résultats sont publiés !**")
 
 def _display_published_result(eval_result, eval_info):
-    """Affiche un résultat publié avec tous les détails"""
+    """Affiche un résultat publié avec tous les détails et gestion défensive"""
     
-    # INDICATEUR DE PERFORMANCE
-    pourcentage = eval_result['pourcentage']
+    # ✅ CORRECTION : Accès défensif au pourcentage (maintenant normalisé)
+    pourcentage = eval_result.get('pourcentage', 0)
     performance_icon, performance_text = _get_performance_indicator(pourcentage)
     
     # Date de publication
@@ -158,14 +225,16 @@ def _display_published_result(eval_result, eval_info):
     
     with st.expander(f"{performance_icon} {eval_info['titre']} - {eval_info['matiere']} ({eval_info['date']}) - {publication_info}", expanded=True):
         
-        # MÉTRIQUES PRINCIPALES
+        # MÉTRIQUES PRINCIPALES avec gestion défensive
         col1, col2, col3, col4 = st.columns(4)
         
         with col1:
-            st.metric("Note obtenue", f"{eval_result['note_totale']}/{eval_result.get('note_maximale', 20)}")
+            note_totale = eval_result.get('note_totale', 0)
+            note_maximale = eval_result.get('note_maximale', 20)
+            st.metric("Note obtenue", f"{note_totale:.1f}/{note_maximale:.0f}")
         
         with col2:
-            st.metric("Pourcentage", f"{eval_result['pourcentage']:.1f}%")
+            st.metric("Pourcentage", f"{pourcentage:.1f}%")
         
         with col3:
             rang = eval_result.get('rang_classe', 'N/A')
@@ -175,8 +244,9 @@ def _display_published_result(eval_result, eval_info):
             st.metric("Performance", f"{performance_icon} {performance_text}")
         
         # DIAGNOSTIC IA
-        if eval_result.get('diagnostic_performance'):
-            st.info(f"🎯 **Diagnostic IA :** {eval_result['diagnostic_performance']}")
+        diagnostic = eval_result.get('diagnostic_performance', '')
+        if diagnostic:
+            st.info(f"🎯 **Diagnostic IA :** {diagnostic}")
         
         # ANALYSE PAR QUESTION AVEC COMMENTAIRES INTELLIGENTS
         questions_data = eval_result.get('questions_avec_commentaires', eval_result.get('questions', []))
@@ -189,31 +259,35 @@ def _display_published_result(eval_result, eval_info):
                 _display_question_feedback(question)
         
         # COMMENTAIRES GÉNÉRAUX
-        if 'commentaires_generaux' in eval_result:
+        commentaires = eval_result.get('commentaires_generaux', '')
+        if commentaires:
             st.markdown("---")
             st.write("**💬 Commentaire général du professeur :**")
-            st.info(eval_result['commentaires_generaux'])
+            st.info(commentaires)
         
         # POINTS FORTS ET AMÉLIORATIONS
         col1, col2 = st.columns(2)
         
         with col1:
-            if 'points_forts' in eval_result and eval_result['points_forts']:
+            points_forts = eval_result.get('points_forts', [])
+            if points_forts:
                 st.success("**🎯 Vos points forts :**")
-                for point in eval_result['points_forts']:
+                for point in points_forts:
                     st.write(f"• {point}")
         
         with col2:
-            if 'points_amelioration' in eval_result and eval_result['points_amelioration']:
+            points_amelioration = eval_result.get('points_amelioration', [])
+            if points_amelioration:
                 st.warning("**📈 Points à améliorer :**")
-                for point in eval_result['points_amelioration']:
+                for point in points_amelioration:
                     st.write(f"• {point}")
         
         # CONSEILS PERSONNALISÉS
-        if 'conseils_personnalises' in eval_result and eval_result['conseils_personnalises']:
+        conseils = eval_result.get('conseils_personnalises', [])
+        if conseils:
             st.markdown("---")
             st.write("**💡 Conseils personnalisés :**")
-            for conseil in eval_result['conseils_personnalises']:
+            for conseil in conseils:
                 st.write(f"• {conseil}")
         
         # ACTIONS DISPONIBLES
@@ -221,13 +295,14 @@ def _display_published_result(eval_result, eval_info):
         col_action1, col_action2 = st.columns(2)
         
         with col_action1:
-            if st.button(f"📄 Générer rapport", key=f"rapport_{eval_info['id_evaluation']}"):
+            eval_id = eval_info.get('id_evaluation', f"eval_{hash(eval_info['titre'])}")
+            if st.button(f"📄 Générer rapport", key=f"rapport_{eval_id}"):
                 st.session_state.page_redirect = "📄 Mes rapports"
                 st.rerun()
         
         with col_action2:
             # Lien vers les soumissions
-            if st.button(f"📤 Voir ma soumission", key=f"soumission_{eval_info['id_evaluation']}"):
+            if st.button(f"📤 Voir ma soumission", key=f"soumission_{eval_id}"):
                 st.session_state.page_redirect = "📋 Mes soumissions"
                 st.rerun()
 
@@ -269,7 +344,7 @@ def _show_unpublished_results_section(unpublished_evaluations):
             
             with col1:
                 st.write(f"**📅 Date évaluation :** {eval_info['date']}")
-                st.write(f"**👨‍🏫 Professeur :** {eval_info['professeur']}")
+                st.write(f"**👨‍🏫 Professeur :** {eval_info.get('professeur', 'Non spécifié')}")
                 st.write(f"**📊 Statut :** {status_text}")
             
             with col2:
@@ -300,16 +375,14 @@ def _show_unpublished_results_section(unpublished_evaluations):
             st.info("📧 Fonctionnalité de contact à implémenter")
 
 def _display_question_feedback(question):
-    """Affiche le feedback pour une question"""
+    """Affiche le feedback pour une question avec gestion défensive"""
+    
+    # ✅ CORRECTION : Accès défensif aux données de question (maintenant normalisées)
     numero = question.get('numero', 'N/A')
     intitule = question.get('intitule', 'Question sans titre')
     note = question.get('note', 0)
     note_max = question.get('note_max', question.get('points_total', 5))
     pourcentage = question.get('pourcentage_reussite', 0)
-    
-    # Si pas de pourcentage, calculer
-    if pourcentage == 0 and note_max > 0:
-        pourcentage = (note / note_max) * 100
     
     commentaire = question.get('commentaire_intelligent', question.get('commentaire', ''))
     conseil = question.get('conseil_personnalise', '')
@@ -328,7 +401,7 @@ def _display_question_feedback(question):
             st.caption(f"📋 {intitule}")
         
         with col2:
-            st.write(f"**Note :** {note}/{note_max} pts")
+            st.write(f"**Note :** {note:.1f}/{note_max:.1f} pts")
             st.write(f"**Score :** {pourcentage:.1f}%")
         
         with col3:
@@ -343,7 +416,8 @@ def _display_question_feedback(question):
                 st.error(f"{q_icon} {q_level}")
         
         # Barre de progression visuelle
-        st.progress(pourcentage / 100, text=f"Maîtrise: {pourcentage:.1f}%")
+        progress_value = max(0, min(100, pourcentage)) / 100  # S'assurer que c'est entre 0 et 1
+        st.progress(progress_value, text=f"Maîtrise: {pourcentage:.1f}%")
         
         # Commentaire intelligent
         if commentaire:
@@ -358,7 +432,9 @@ def _display_question_feedback(question):
         st.markdown("---")
 
 def _get_performance_indicator(pourcentage):
-    """Retourne l'icône et le texte de performance"""
+    """Retourne l'icône et le texte de performance avec gestion défensive"""
+    pourcentage = float(pourcentage) if pourcentage is not None else 0
+    
     if pourcentage >= 90:
         return "🏆", "Excellent"
     elif pourcentage >= 80:
@@ -373,7 +449,9 @@ def _get_performance_indicator(pourcentage):
         return "🔴", "Insuffisant"
 
 def _get_question_performance(pourcentage):
-    """Retourne l'icône, couleur et niveau pour une question"""
+    """Retourne l'icône, couleur et niveau pour une question avec gestion défensive"""
+    pourcentage = float(pourcentage) if pourcentage is not None else 0
+    
     if pourcentage >= 90:
         return "🏆", "success", "Excellent"
     elif pourcentage >= 75:
@@ -388,4 +466,4 @@ def _get_question_performance(pourcentage):
         return "🚨", "error", "Très faible"
 
 if __name__ == "__main__":
-    print("📊 Page my_results.py avec vérification de publication prête !")
+    print("📊 Page my_results.py avec gestion défensive des champs manquants prête !")

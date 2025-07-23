@@ -1,87 +1,421 @@
 {
   "etudiant_nom": "Bah",
   "etudiant_prenom": "Isaac",
-  "note_totale": 0.0,
-  "note_maximale": 20.0,
-  "pourcentage": 0.0,
-  "rang_classe": 1,
-  "timestamp": "2025-07-23T11:08:34.398653",
-  "commentaires_generaux": "Erreur correction IA: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
-  "points_forts": [],
-  "points_amelioration": [],
-  "conseils_personnalises": [],
-  "diagnostic_performance": "",
+  "note_totale": 15,
+  "note_brute_moyenne": 14.67,
+  "notes_detaillees": {
+    "Q1": {
+      "note": 7,
+      "note_brute": 7.17,
+      "corrections_individuelles": [
+        7.0,
+        7.5,
+        7.0
+      ]
+    },
+    "Q2": {
+      "note": 7.5,
+      "note_brute": 7.5,
+      "corrections_individuelles": [
+        8.0,
+        6.5,
+        8.0
+      ]
+    }
+  },
+  "commentaires_generaux": "Votre copie montre une bonne compréhension des concepts littéraires et une capacité à structurer vos réponses de manière claire. Pour progresser, concentrez-vous sur l'approfondissement de vos analyses et l'enrichissement de votre expression écrite.",
+  "points_forts": [
+    "Bonne identification des procédés stylistiques dans l'analyse de Flaubert.",
+    "Réponse claire et structurée sur le romantisme.",
+    "Utilisation pertinente d'exemples littéraires."
+  ],
+  "points_amelioration": [
+    "Approfondir l'analyse des procédés stylistiques pour mieux comprendre leur impact.",
+    "Développer davantage l'analyse des œuvres et des auteurs cités.",
+    "Varier et enrichir le vocabulaire pour une expression plus élégante."
+  ],
+  "conseils_personnalises": [
+    "Travaillez sur l'approfondissement de vos analyses littéraires en vous posant des questions sur l'effet des procédés stylistiques.",
+    "Lisez des analyses critiques pour enrichir votre compréhension des œuvres littéraires.",
+    "Continuez à développer votre vocabulaire pour améliorer la qualité de votre expression."
+  ],
   "questions": [
     {
       "numero": 1,
       "intitule": "Analyse stylistique Analysez les procédés stylistiques dans cette phrase de Flaubert : \"Emma se repentait d'avoir aimé ; mais cette pensée, loin de la consoler, l'irritait davantage.\"",
       "type": "ouverte",
-      "note": 0.0,
+      "note": 7.0,
       "note_max": 10.0,
-      "commentaire_intelligent": "",
-      "conseil_personnalise": "",
-      "diagnostic_technique_specialise": "",
-      "pourcentage_reussite": 0.0
+      "commentaire_intelligent": "Vous avez bien identifié l'antithèse et le paradoxe psychologique dans la phrase de Flaubert, ce qui montre une bonne compréhension des procédés stylistiques. Cependant, l'analyse aurait pu être approfondie en expliquant davantage comment ces procédés servent le réalisme psychologique de Flaubert.",
+      "conseil_personnalise": "Pour améliorer votre analyse, essayez de détailler comment chaque procédé stylistique contribue à l'effet global de la phrase.",
+      "diagnostic_technique_specialise": "Bonne identification des procédés stylistiques, mais manque de développement sur leur impact et leur rôle dans l'œuvre de Flaubert.",
+      "pourcentage_reussite": 70.0
     },
     {
       "numero": 2,
       "intitule": "Mouvement littéraire Définissez le romantisme et citez deux caractéristiques principales avec un exemple d'auteur.",
       "type": "ouverte",
-      "note": 0.0,
+      "note": 8.0,
       "note_max": 10.0,
-      "commentaire_intelligent": "",
-      "conseil_personnalise": "",
-      "diagnostic_technique_specialise": "",
-      "pourcentage_reussite": 0.0
+      "commentaire_intelligent": "Vous avez bien défini le romantisme et cité des caractéristiques pertinentes avec des exemples d'auteurs. Votre réponse est claire et bien structurée. Pour atteindre l'excellence, vous pourriez inclure une analyse plus détaillée des œuvres citées.",
+      "conseil_personnalise": "Pour enrichir votre réponse, intégrez des analyses plus précises des œuvres et des auteurs mentionnés.",
+      "diagnostic_technique_specialise": "Bonne compréhension du mouvement romantique et de ses caractéristiques, mais manque d'approfondissement dans l'analyse des exemples littéraires.",
+      "pourcentage_reussite": 80.0
     }
   ],
-  "questions_avec_commentaires": [
-    {
-      "numero": 1,
-      "intitule": "Analyse stylistique Analysez les procédés stylistiques dans cette phrase de Flaubert : \"Emma se repentait d'avoir aimé ; mais cette pensée, loin de la consoler, l'irritait davantage.\"",
-      "type": "ouverte",
-      "note": 0.0,
-      "note_max": 10.0,
-      "commentaire_intelligent": "",
-      "conseil_personnalise": "",
-      "diagnostic_technique_specialise": "",
-      "pourcentage_reussite": 0.0
-    },
-    {
-      "numero": 2,
-      "intitule": "Mouvement littéraire Définissez le romantisme et citez deux caractéristiques principales avec un exemple d'auteur.",
-      "type": "ouverte",
-      "note": 0.0,
-      "note_max": 10.0,
-      "commentaire_intelligent": "",
-      "conseil_personnalise": "",
-      "diagnostic_technique_specialise": "",
-      "pourcentage_reussite": 0.0
-    }
-  ],
-  "detection_triche": {
-    "similarite_detectee": true,
-    "score_max": 100.0,
-    "algorithme": "ai_analysis"
-  },
-  "necessite_revision_humaine": true,
   "qualite_correction": {
-    "profil_utilise": "Excellence",
-    "confiance_ocr": 0.0,
-    "modele_ia": "gpt-4o",
-    "verification_double": true,
-    "expertise_specialisee": "professeur agrégé de LETTRES MODERNES avec spécialisation en littérature française"
+    "confiance_ocr": 95.0,
+    "coherence_correction": 0.85,
+    "nombre_corrections": 3,
+    "note_brute_moyenne": 14.67,
+    "ecart_type": 0.47,
+    "notes_individuelles": [
+      15.0,
+      14.0,
+      15.0
+    ]
   },
-  "ai_details": {
-    "notes_par_question": {},
-    "commentaires_par_question": {},
-    "conseils_par_question": {},
-    "diagnostic_technique_par_question": {},
-    "pourcentages_par_question": {},
-    "transcription_quality": "difficult",
-    "processing_time": 5.92,
-    "specialisation_matiere": "professeur agrégé de LETTRES MODERNES avec spécialisation en littérature française"
-  },
-  "statut_publication": "brouillon",
-  "date_correction": "2025-07-23T11:08:55.363524"
+  "methode_correction": "triple_ia_moyenne",
+  "statut_publication": "publie",
+  "date_correction": "2025-07-23T14:11:13.722354",
+  "corrections_multiples": [
+    {
+      "etudiant_nom": "Bah",
+      "etudiant_prenom": "Isaac",
+      "note_totale": 15.0,
+      "note_maximale": 20.0,
+      "pourcentage": 75.0,
+      "rang_classe": 1,
+      "timestamp": "2025-07-23T14:10:00.918173",
+      "commentaires_generaux": "Votre copie montre une bonne compréhension des concepts littéraires et une capacité à structurer vos réponses de manière claire. Pour progresser, concentrez-vous sur l'approfondissement de vos analyses et l'enrichissement de votre expression écrite.",
+      "points_forts": [
+        "Bonne identification des procédés stylistiques dans l'analyse de Flaubert.",
+        "Réponse claire et structurée sur le romantisme.",
+        "Utilisation pertinente d'exemples littéraires."
+      ],
+      "points_amelioration": [
+        "Approfondir l'analyse des procédés stylistiques pour mieux comprendre leur impact.",
+        "Développer davantage l'analyse des œuvres et des auteurs cités.",
+        "Varier et enrichir le vocabulaire pour une expression plus élégante."
+      ],
+      "conseils_personnalises": [
+        "Travaillez sur l'approfondissement de vos analyses littéraires en vous posant des questions sur l'effet des procédés stylistiques.",
+        "Lisez des analyses critiques pour enrichir votre compréhension des œuvres littéraires.",
+        "Continuez à développer votre vocabulaire pour améliorer la qualité de votre expression."
+      ],
+      "diagnostic_performance": "",
+      "questions": [
+        {
+          "numero": 1,
+          "intitule": "Analyse stylistique Analysez les procédés stylistiques dans cette phrase de Flaubert : \"Emma se repentait d'avoir aimé ; mais cette pensée, loin de la consoler, l'irritait davantage.\"",
+          "type": "ouverte",
+          "note": 7.0,
+          "note_max": 10.0,
+          "commentaire_intelligent": "Vous avez bien identifié l'antithèse et le paradoxe psychologique dans la phrase de Flaubert, ce qui montre une bonne compréhension des procédés stylistiques. Cependant, l'analyse aurait pu être approfondie en expliquant davantage comment ces procédés servent le réalisme psychologique de Flaubert.",
+          "conseil_personnalise": "Pour améliorer votre analyse, essayez de détailler comment chaque procédé stylistique contribue à l'effet global de la phrase.",
+          "diagnostic_technique_specialise": "Bonne identification des procédés stylistiques, mais manque de développement sur leur impact et leur rôle dans l'œuvre de Flaubert.",
+          "pourcentage_reussite": 70.0
+        },
+        {
+          "numero": 2,
+          "intitule": "Mouvement littéraire Définissez le romantisme et citez deux caractéristiques principales avec un exemple d'auteur.",
+          "type": "ouverte",
+          "note": 8.0,
+          "note_max": 10.0,
+          "commentaire_intelligent": "Vous avez bien défini le romantisme et cité des caractéristiques pertinentes avec des exemples d'auteurs. Votre réponse est claire et bien structurée. Pour atteindre l'excellence, vous pourriez inclure une analyse plus détaillée des œuvres citées.",
+          "conseil_personnalise": "Pour enrichir votre réponse, intégrez des analyses plus précises des œuvres et des auteurs mentionnés.",
+          "diagnostic_technique_specialise": "Bonne compréhension du mouvement romantique et de ses caractéristiques, mais manque d'approfondissement dans l'analyse des exemples littéraires.",
+          "pourcentage_reussite": 80.0
+        }
+      ],
+      "questions_avec_commentaires": [
+        {
+          "numero": 1,
+          "intitule": "Analyse stylistique Analysez les procédés stylistiques dans cette phrase de Flaubert : \"Emma se repentait d'avoir aimé ; mais cette pensée, loin de la consoler, l'irritait davantage.\"",
+          "type": "ouverte",
+          "note": 7.0,
+          "note_max": 10.0,
+          "commentaire_intelligent": "Vous avez bien identifié l'antithèse et le paradoxe psychologique dans la phrase de Flaubert, ce qui montre une bonne compréhension des procédés stylistiques. Cependant, l'analyse aurait pu être approfondie en expliquant davantage comment ces procédés servent le réalisme psychologique de Flaubert.",
+          "conseil_personnalise": "Pour améliorer votre analyse, essayez de détailler comment chaque procédé stylistique contribue à l'effet global de la phrase.",
+          "diagnostic_technique_specialise": "Bonne identification des procédés stylistiques, mais manque de développement sur leur impact et leur rôle dans l'œuvre de Flaubert.",
+          "pourcentage_reussite": 70.0
+        },
+        {
+          "numero": 2,
+          "intitule": "Mouvement littéraire Définissez le romantisme et citez deux caractéristiques principales avec un exemple d'auteur.",
+          "type": "ouverte",
+          "note": 8.0,
+          "note_max": 10.0,
+          "commentaire_intelligent": "Vous avez bien défini le romantisme et cité des caractéristiques pertinentes avec des exemples d'auteurs. Votre réponse est claire et bien structurée. Pour atteindre l'excellence, vous pourriez inclure une analyse plus détaillée des œuvres citées.",
+          "conseil_personnalise": "Pour enrichir votre réponse, intégrez des analyses plus précises des œuvres et des auteurs mentionnés.",
+          "diagnostic_technique_specialise": "Bonne compréhension du mouvement romantique et de ses caractéristiques, mais manque d'approfondissement dans l'analyse des exemples littéraires.",
+          "pourcentage_reussite": 80.0
+        }
+      ],
+      "detection_triche": {
+        "similarite_detectee": false,
+        "score_max": -9400.0,
+        "algorithme": "ai_analysis"
+      },
+      "necessite_revision_humaine": false,
+      "qualite_correction": {
+        "profil_utilise": "Excellence",
+        "confiance_ocr": 95.0,
+        "modele_ia": "gpt-4o",
+        "verification_double": true,
+        "expertise_specialisee": "professeur agrégé de LETTRES MODERNES avec spécialisation en littérature française"
+      },
+      "ai_details": {
+        "notes_par_question": {
+          "Q1": 7.0,
+          "Q2": 8.0
+        },
+        "commentaires_par_question": {
+          "Q1": "Vous avez bien identifié l'antithèse et le paradoxe psychologique dans la phrase de Flaubert, ce qui montre une bonne compréhension des procédés stylistiques. Cependant, l'analyse aurait pu être approfondie en expliquant davantage comment ces procédés servent le réalisme psychologique de Flaubert.",
+          "Q2": "Vous avez bien défini le romantisme et cité des caractéristiques pertinentes avec des exemples d'auteurs. Votre réponse est claire et bien structurée. Pour atteindre l'excellence, vous pourriez inclure une analyse plus détaillée des œuvres citées."
+        },
+        "conseils_par_question": {
+          "Q1": "Pour améliorer votre analyse, essayez de détailler comment chaque procédé stylistique contribue à l'effet global de la phrase.",
+          "Q2": "Pour enrichir votre réponse, intégrez des analyses plus précises des œuvres et des auteurs mentionnés."
+        },
+        "diagnostic_technique_par_question": {
+          "Q1": "Bonne identification des procédés stylistiques, mais manque de développement sur leur impact et leur rôle dans l'œuvre de Flaubert.",
+          "Q2": "Bonne compréhension du mouvement romantique et de ses caractéristiques, mais manque d'approfondissement dans l'analyse des exemples littéraires."
+        },
+        "pourcentages_par_question": {
+          "Q1": 70.0,
+          "Q2": 80.0
+        },
+        "transcription_quality": "good",
+        "processing_time": 13.22,
+        "specialisation_matiere": "professeur agrégé de LETTRES MODERNES avec spécialisation en littérature française"
+      }
+    },
+    {
+      "etudiant_nom": "Bah",
+      "etudiant_prenom": "Isaac",
+      "note_totale": 14.0,
+      "note_maximale": 20.0,
+      "pourcentage": 70.0,
+      "rang_classe": 1,
+      "timestamp": "2025-07-23T14:10:35.345323",
+      "commentaires_generaux": "Votre copie montre une bonne compréhension des concepts littéraires et une capacité à identifier des procédés stylistiques pertinents. Cependant, un développement plus approfondi et une meilleure structuration de vos réponses vous permettraient d'atteindre un niveau d'excellence. Continuez à travailler sur la clarté et la profondeur de vos analyses.",
+      "points_forts": [
+        "Bonne identification des procédés stylistiques dans l'analyse de Flaubert.",
+        "Pertinence des exemples littéraires pour illustrer le romantisme.",
+        "Compréhension globale des concepts littéraires abordés."
+      ],
+      "points_amelioration": [
+        "Développer davantage l'analyse des effets stylistiques pour enrichir la réponse.",
+        "Améliorer la structure et la clarté de la réponse sur le romantisme.",
+        "Préciser les liens entre caractéristiques et exemples pour une meilleure cohérence."
+      ],
+      "conseils_personnalises": [
+        "Travaillez sur l'approfondissement de l'analyse stylistique en vous concentrant sur l'effet de chaque procédé.",
+        "Pratiquez la structuration de vos réponses pour améliorer la clarté et la cohérence.",
+        "Continuez à lire des œuvres littéraires pour enrichir votre culture littéraire et votre compréhension des mouvements."
+      ],
+      "diagnostic_performance": "",
+      "questions": [
+        {
+          "numero": 1,
+          "intitule": "Analyse stylistique Analysez les procédés stylistiques dans cette phrase de Flaubert : \"Emma se repentait d'avoir aimé ; mais cette pensée, loin de la consoler, l'irritait davantage.\"",
+          "type": "ouverte",
+          "note": 7.5,
+          "note_max": 10.0,
+          "commentaire_intelligent": "Vous avez bien identifié les procédés stylistiques principaux de la phrase de Flaubert, notamment l'antithèse et le paradoxe psychologique. Votre analyse de l'adjectif \"davantage\" est pertinente et montre une bonne compréhension de la complexité émotionnelle du personnage. Cependant, une exploration plus approfondie de l'effet stylistique de chaque élément aurait enrichi votre réponse.",
+          "conseil_personnalise": "Pour approfondir, examinez comment chaque procédé stylistique contribue à l'effet global de la phrase.",
+          "diagnostic_technique_specialise": "Bonne identification des procédés stylistiques, mais manque de développement sur leur impact stylistique et émotionnel.",
+          "pourcentage_reussite": 75.0
+        },
+        {
+          "numero": 2,
+          "intitule": "Mouvement littéraire Définissez le romantisme et citez deux caractéristiques principales avec un exemple d'auteur.",
+          "type": "ouverte",
+          "note": 6.5,
+          "note_max": 10.0,
+          "commentaire_intelligent": "Vous avez correctement défini le romantisme et mentionné des caractéristiques essentielles telles que l'expression du moi et la liberté créatrice. Les exemples d'auteurs et d'œuvres sont pertinents. Toutefois, la structure de votre réponse pourrait être améliorée pour mieux distinguer les caractéristiques principales et les exemples.",
+          "conseil_personnalise": "Clarifiez la structure de votre réponse en séparant clairement les caractéristiques des exemples pour une meilleure lisibilité.",
+          "diagnostic_technique_specialise": "Bonne compréhension des caractéristiques du romantisme, mais la structure de la réponse pourrait être plus claire et organisée.",
+          "pourcentage_reussite": 65.0
+        }
+      ],
+      "questions_avec_commentaires": [
+        {
+          "numero": 1,
+          "intitule": "Analyse stylistique Analysez les procédés stylistiques dans cette phrase de Flaubert : \"Emma se repentait d'avoir aimé ; mais cette pensée, loin de la consoler, l'irritait davantage.\"",
+          "type": "ouverte",
+          "note": 7.5,
+          "note_max": 10.0,
+          "commentaire_intelligent": "Vous avez bien identifié les procédés stylistiques principaux de la phrase de Flaubert, notamment l'antithèse et le paradoxe psychologique. Votre analyse de l'adjectif \"davantage\" est pertinente et montre une bonne compréhension de la complexité émotionnelle du personnage. Cependant, une exploration plus approfondie de l'effet stylistique de chaque élément aurait enrichi votre réponse.",
+          "conseil_personnalise": "Pour approfondir, examinez comment chaque procédé stylistique contribue à l'effet global de la phrase.",
+          "diagnostic_technique_specialise": "Bonne identification des procédés stylistiques, mais manque de développement sur leur impact stylistique et émotionnel.",
+          "pourcentage_reussite": 75.0
+        },
+        {
+          "numero": 2,
+          "intitule": "Mouvement littéraire Définissez le romantisme et citez deux caractéristiques principales avec un exemple d'auteur.",
+          "type": "ouverte",
+          "note": 6.5,
+          "note_max": 10.0,
+          "commentaire_intelligent": "Vous avez correctement défini le romantisme et mentionné des caractéristiques essentielles telles que l'expression du moi et la liberté créatrice. Les exemples d'auteurs et d'œuvres sont pertinents. Toutefois, la structure de votre réponse pourrait être améliorée pour mieux distinguer les caractéristiques principales et les exemples.",
+          "conseil_personnalise": "Clarifiez la structure de votre réponse en séparant clairement les caractéristiques des exemples pour une meilleure lisibilité.",
+          "diagnostic_technique_specialise": "Bonne compréhension des caractéristiques du romantisme, mais la structure de la réponse pourrait être plus claire et organisée.",
+          "pourcentage_reussite": 65.0
+        }
+      ],
+      "detection_triche": {
+        "similarite_detectee": false,
+        "score_max": -9400.0,
+        "algorithme": "ai_analysis"
+      },
+      "necessite_revision_humaine": false,
+      "qualite_correction": {
+        "profil_utilise": "Excellence",
+        "confiance_ocr": 95.0,
+        "modele_ia": "gpt-4o",
+        "verification_double": true,
+        "expertise_specialisee": "professeur agrégé de LETTRES MODERNES avec spécialisation en littérature française"
+      },
+      "ai_details": {
+        "notes_par_question": {
+          "Q1": 7.5,
+          "Q2": 6.5
+        },
+        "commentaires_par_question": {
+          "Q1": "Vous avez bien identifié les procédés stylistiques principaux de la phrase de Flaubert, notamment l'antithèse et le paradoxe psychologique. Votre analyse de l'adjectif \"davantage\" est pertinente et montre une bonne compréhension de la complexité émotionnelle du personnage. Cependant, une exploration plus approfondie de l'effet stylistique de chaque élément aurait enrichi votre réponse.",
+          "Q2": "Vous avez correctement défini le romantisme et mentionné des caractéristiques essentielles telles que l'expression du moi et la liberté créatrice. Les exemples d'auteurs et d'œuvres sont pertinents. Toutefois, la structure de votre réponse pourrait être améliorée pour mieux distinguer les caractéristiques principales et les exemples."
+        },
+        "conseils_par_question": {
+          "Q1": "Pour approfondir, examinez comment chaque procédé stylistique contribue à l'effet global de la phrase.",
+          "Q2": "Clarifiez la structure de votre réponse en séparant clairement les caractéristiques des exemples pour une meilleure lisibilité."
+        },
+        "diagnostic_technique_par_question": {
+          "Q1": "Bonne identification des procédés stylistiques, mais manque de développement sur leur impact stylistique et émotionnel.",
+          "Q2": "Bonne compréhension des caractéristiques du romantisme, mais la structure de la réponse pourrait être plus claire et organisée."
+        },
+        "pourcentages_par_question": {
+          "Q1": 75.0,
+          "Q2": 65.0
+        },
+        "transcription_quality": "good",
+        "processing_time": 18.09,
+        "specialisation_matiere": "professeur agrégé de LETTRES MODERNES avec spécialisation en littérature française"
+      }
+    },
+    {
+      "etudiant_nom": "Bah",
+      "etudiant_prenom": "Isaac",
+      "note_totale": 15.0,
+      "note_maximale": 20.0,
+      "pourcentage": 75.0,
+      "rang_classe": 1,
+      "timestamp": "2025-07-23T14:11:13.219929",
+      "commentaires_generaux": "Votre copie montre une bonne compréhension des concepts littéraires et une capacité à structurer vos idées de manière cohérente. Pour progresser, concentrez-vous sur l'approfondissement de vos analyses et l'enrichissement de vos réponses avec des détails supplémentaires.",
+      "points_forts": [
+        "Bonne identification des procédés stylistiques dans l'analyse de Flaubert.",
+        "Définition claire et précise du romantisme avec des exemples pertinents.",
+        "Structure logique et cohérente des réponses."
+      ],
+      "points_amelioration": [
+        "Approfondir l'analyse des procédés stylistiques pour mieux comprendre leur impact.",
+        "Intégrer des analyses plus détaillées des œuvres littéraires citées.",
+        "Développer davantage les effets des procédés sur le lecteur."
+      ],
+      "conseils_personnalises": [
+        "Travaillez sur l'approfondissement de vos analyses littéraires en vous posant des questions sur l'effet des procédés sur le lecteur.",
+        "Révisez les œuvres littéraires majeures pour enrichir vos exemples et analyses.",
+        "Continuez à structurer vos réponses de manière claire et logique pour maintenir la cohérence."
+      ],
+      "diagnostic_performance": "",
+      "questions": [
+        {
+          "numero": 1,
+          "intitule": "Analyse stylistique Analysez les procédés stylistiques dans cette phrase de Flaubert : \"Emma se repentait d'avoir aimé ; mais cette pensée, loin de la consoler, l'irritait davantage.\"",
+          "type": "ouverte",
+          "note": 7.0,
+          "note_max": 10.0,
+          "commentaire_intelligent": "Vous avez bien identifié l'antithèse et le paradoxe psychologique dans la phrase de Flaubert, ce qui montre une bonne compréhension des procédés stylistiques. Cependant, l'analyse pourrait être approfondie en expliquant davantage comment ces procédés reflètent le réalisme psychologique de Flaubert.",
+          "conseil_personnalise": "Pour améliorer votre analyse, essayez de développer plus en détail l'impact de chaque procédé stylistique sur la compréhension du personnage d'Emma.",
+          "diagnostic_technique_specialise": "L'analyse stylistique est pertinente mais gagnerait en profondeur avec une exploration plus détaillée des effets des procédés sur le lecteur.",
+          "pourcentage_reussite": 70.0
+        },
+        {
+          "numero": 2,
+          "intitule": "Mouvement littéraire Définissez le romantisme et citez deux caractéristiques principales avec un exemple d'auteur.",
+          "type": "ouverte",
+          "note": 8.0,
+          "note_max": 10.0,
+          "commentaire_intelligent": "Vous avez bien défini le romantisme et cité des caractéristiques pertinentes avec des exemples d'auteurs. La réponse est claire et bien structurée, mais pourrait inclure une analyse plus approfondie des œuvres citées pour enrichir la réponse.",
+          "conseil_personnalise": "Pour atteindre l'excellence, intégrez des analyses plus détaillées des œuvres et des auteurs mentionnés.",
+          "diagnostic_technique_specialise": "La définition du mouvement littéraire est précise et les exemples sont bien choisis, mais l'analyse pourrait être enrichie par des détails supplémentaires sur les œuvres.",
+          "pourcentage_reussite": 80.0
+        }
+      ],
+      "questions_avec_commentaires": [
+        {
+          "numero": 1,
+          "intitule": "Analyse stylistique Analysez les procédés stylistiques dans cette phrase de Flaubert : \"Emma se repentait d'avoir aimé ; mais cette pensée, loin de la consoler, l'irritait davantage.\"",
+          "type": "ouverte",
+          "note": 7.0,
+          "note_max": 10.0,
+          "commentaire_intelligent": "Vous avez bien identifié l'antithèse et le paradoxe psychologique dans la phrase de Flaubert, ce qui montre une bonne compréhension des procédés stylistiques. Cependant, l'analyse pourrait être approfondie en expliquant davantage comment ces procédés reflètent le réalisme psychologique de Flaubert.",
+          "conseil_personnalise": "Pour améliorer votre analyse, essayez de développer plus en détail l'impact de chaque procédé stylistique sur la compréhension du personnage d'Emma.",
+          "diagnostic_technique_specialise": "L'analyse stylistique est pertinente mais gagnerait en profondeur avec une exploration plus détaillée des effets des procédés sur le lecteur.",
+          "pourcentage_reussite": 70.0
+        },
+        {
+          "numero": 2,
+          "intitule": "Mouvement littéraire Définissez le romantisme et citez deux caractéristiques principales avec un exemple d'auteur.",
+          "type": "ouverte",
+          "note": 8.0,
+          "note_max": 10.0,
+          "commentaire_intelligent": "Vous avez bien défini le romantisme et cité des caractéristiques pertinentes avec des exemples d'auteurs. La réponse est claire et bien structurée, mais pourrait inclure une analyse plus approfondie des œuvres citées pour enrichir la réponse.",
+          "conseil_personnalise": "Pour atteindre l'excellence, intégrez des analyses plus détaillées des œuvres et des auteurs mentionnés.",
+          "diagnostic_technique_specialise": "La définition du mouvement littéraire est précise et les exemples sont bien choisis, mais l'analyse pourrait être enrichie par des détails supplémentaires sur les œuvres.",
+          "pourcentage_reussite": 80.0
+        }
+      ],
+      "detection_triche": {
+        "similarite_detectee": false,
+        "score_max": -9400.0,
+        "algorithme": "ai_analysis"
+      },
+      "necessite_revision_humaine": false,
+      "qualite_correction": {
+        "profil_utilise": "Excellence",
+        "confiance_ocr": 95.0,
+        "modele_ia": "gpt-4o",
+        "verification_double": true,
+        "expertise_specialisee": "professeur agrégé de LETTRES MODERNES avec spécialisation en littérature française"
+      },
+      "ai_details": {
+        "notes_par_question": {
+          "Q1": 7.0,
+          "Q2": 8.0
+        },
+        "commentaires_par_question": {
+          "Q1": "Vous avez bien identifié l'antithèse et le paradoxe psychologique dans la phrase de Flaubert, ce qui montre une bonne compréhension des procédés stylistiques. Cependant, l'analyse pourrait être approfondie en expliquant davantage comment ces procédés reflètent le réalisme psychologique de Flaubert.",
+          "Q2": "Vous avez bien défini le romantisme et cité des caractéristiques pertinentes avec des exemples d'auteurs. La réponse est claire et bien structurée, mais pourrait inclure une analyse plus approfondie des œuvres citées pour enrichir la réponse."
+        },
+        "conseils_par_question": {
+          "Q1": "Pour améliorer votre analyse, essayez de développer plus en détail l'impact de chaque procédé stylistique sur la compréhension du personnage d'Emma.",
+          "Q2": "Pour atteindre l'excellence, intégrez des analyses plus détaillées des œuvres et des auteurs mentionnés."
+        },
+        "diagnostic_technique_par_question": {
+          "Q1": "L'analyse stylistique est pertinente mais gagnerait en profondeur avec une exploration plus détaillée des effets des procédés sur le lecteur.",
+          "Q2": "La définition du mouvement littéraire est précise et les exemples sont bien choisis, mais l'analyse pourrait être enrichie par des détails supplémentaires sur les œuvres."
+        },
+        "pourcentages_par_question": {
+          "Q1": 70.0,
+          "Q2": 80.0
+        },
+        "transcription_quality": "good",
+        "processing_time": 22.94,
+        "specialisation_matiere": "professeur agrégé de LETTRES MODERNES avec spécialisation en littérature française"
+      }
+    }
+  ],
+  "necessite_revision_humaine": false,
+  "date_maj_publication": "2025-07-23T14:16:36.450433"
 }

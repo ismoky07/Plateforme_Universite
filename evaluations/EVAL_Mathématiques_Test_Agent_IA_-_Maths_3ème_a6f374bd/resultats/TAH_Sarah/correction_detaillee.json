@@ -1,169 +1,193 @@
 {
   "etudiant_nom": "TAH",
   "etudiant_prenom": "Sarah",
-  "note_totale": 0,
-  "note_brute_moyenne": 0.0,
+  "note_totale": 12,
+  "note_brute_moyenne": 11.67,
   "notes_detaillees": {
     "Q1": {
-      "note": 0,
-      "note_brute": 0.0,
+      "note": 3,
+      "note_brute": 3.0,
       "corrections_individuelles": [
-        0.0,
-        0.0,
-        0.0
+        3.0,
+        3.0,
+        3.0
       ]
     },
     "Q2": {
-      "note": 0,
-      "note_brute": 0.0,
+      "note": 3,
+      "note_brute": 2.67,
       "corrections_individuelles": [
-        0.0,
-        0.0,
-        0.0
+        4.0,
+        2.0,
+        2.0
       ]
     },
     "Q3": {
-      "note": 0,
-      "note_brute": 0.0,
+      "note": 4,
+      "note_brute": 4.0,
       "corrections_individuelles": [
-        0.0,
-        0.0,
-        0.0
+        4.0,
+        4.0,
+        4.0
       ]
     },
     "Q4": {
-      "note": 0,
-      "note_brute": 0.0,
+      "note": 2,
+      "note_brute": 2.0,
       "corrections_individuelles": [
-        0.0,
-        0.0,
-        0.0
+        2.0,
+        2.0,
+        2.0
       ]
     }
   },
-  "commentaires_generaux": "Erreur correction IA: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
-  "points_forts": [],
-  "points_amelioration": [],
-  "conseils_personnalises": [],
+  "commentaires_generaux": "Marie, vous avez montré une bonne compréhension des concepts mathématiques, mais quelques erreurs de calcul ont affecté votre performance globale. La maîtrise de la factorisation est excellente, mais il est important de vérifier chaque étape de vos calculs pour éviter les erreurs d'inattention. Continuez à travailler sur la précision de vos calculs et la résolution d'équations.",
+  "points_forts": [
+    "Bonne compréhension des concepts de base en algèbre.",
+    "Maîtrise de la factorisation des polynômes.",
+    "Capacité à appliquer les formules mathématiques."
+  ],
+  "points_amelioration": [
+    "Attention aux erreurs de calcul simples qui peuvent affecter le résultat final.",
+    "Revoir les techniques de résolution d'équations linéaires.",
+    "Vérification systématique des résultats pour éviter les erreurs d'inattention."
+  ],
+  "conseils_personnalises": [
+    "Pratiquez des exercices de calcul mental pour améliorer votre précision.",
+    "Revoyez les techniques de résolution d'équations linéaires.",
+    "Restez motivée et continuez à pratiquer régulièrement pour renforcer vos compétences."
+  ],
   "questions": [
     {
       "numero": 1,
       "intitule": "Q1 : \"Résoudre 2x + 5 = 13\"",
       "type": "calcul",
-      "note": 0.0,
+      "note": 3.0,
       "note_max": 4.0,
-      "commentaire_intelligent": "",
-      "conseil_personnalise": "",
-      "diagnostic_technique_specialise": "",
-      "pourcentage_reussite": 0.0
+      "commentaire_intelligent": "Vous avez bien commencé la résolution de l'équation, mais une erreur s'est glissée dans la dernière étape. Vous avez écrit \\(x = 8\\) au lieu de \\(x = 4\\). C'est une petite inattention qui peut être facilement corrigée.",
+      "conseil_personnalise": "Revérifiez toujours vos calculs pour éviter les erreurs d'inattention.",
+      "diagnostic_technique_specialise": "Erreur de calcul dans la simplification finale. Vérification des étapes intermédiaires recommandée.",
+      "pourcentage_reussite": 75.0
     },
     {
       "numero": 2,
       "intitule": "Q2 : \"Calculer f(3) avec f(x) = 2x² - 5x + 1\"",
       "type": "calcul",
-      "note": 0.0,
+      "note": 4.0,
       "note_max": 5.0,
-      "commentaire_intelligent": "",
-      "conseil_personnalise": "",
-      "diagnostic_technique_specialise": "",
-      "pourcentage_reussite": 0.0
+      "commentaire_intelligent": "Vous avez correctement appliqué la fonction pour calculer \\(f(3)\\), mais une erreur de calcul a conduit à un résultat incorrect. La multiplication et l'addition doivent être revues.",
+      "conseil_personnalise": "Refaire les calculs étape par étape pour éviter les erreurs de multiplication et d'addition.",
+      "diagnostic_technique_specialise": "Erreur de calcul dans l'évaluation de l'expression. Vérification des opérations arithmétiques recommandée.",
+      "pourcentage_reussite": 80.0
     },
     {
       "numero": 3,
       "intitule": "Q3 : \"Factoriser x² - 9\"",
       "type": "demonstration",
-      "note": 0.0,
+      "note": 4.0,
       "note_max": 4.0,
-      "commentaire_intelligent": "",
-      "conseil_personnalise": "",
-      "diagnostic_technique_specialise": "",
-      "pourcentage_reussite": 0.0
+      "commentaire_intelligent": "Excellent travail sur la factorisation. Vous avez démontré une parfaite maîtrise de la différence de carrés. Continuez ainsi !",
+      "conseil_personnalise": "Explorez d'autres polynômes pour renforcer votre compréhension des factorisations.",
+      "diagnostic_technique_specialise": "Aucune erreur. Maîtrise parfaite de la technique de factorisation.",
+      "pourcentage_reussite": 100.0
     },
     {
       "numero": 4,
       "intitule": "Q4 : \"Rectangle : longueur (2x+3), largeur x, périmètre 26cm. Trouver x\"",
       "type": "ouverte",
-      "note": 0.0,
+      "note": 2.0,
       "note_max": 7.0,
-      "commentaire_intelligent": "",
-      "conseil_personnalise": "",
-      "diagnostic_technique_specialise": "",
-      "pourcentage_reussite": 0.0
+      "commentaire_intelligent": "Vous avez bien commencé en utilisant la formule du périmètre, mais une erreur dans la résolution de l'équation a conduit à un résultat incorrect. La division finale est incorrecte.",
+      "conseil_personnalise": "Revoir la résolution des équations linéaires et la simplification des fractions.",
+      "diagnostic_technique_specialise": "Erreur dans la simplification et la résolution de l'équation. Revoir les techniques de résolution d'équations linéaires.",
+      "pourcentage_reussite": 28.0
     }
   ],
   "qualite_correction": {
-    "confiance_ocr": 0.0,
+    "confiance_ocr": 100.0,
     "coherence_correction": 0.85,
     "nombre_corrections": 3,
-    "note_brute_moyenne": 0.0,
-    "ecart_type": 0.0,
+    "note_brute_moyenne": 11.67,
+    "ecart_type": 0.94,
     "notes_individuelles": [
-      0.0,
-      0.0,
-      0.0
+      13.0,
+      11.0,
+      11.0
     ]
   },
   "methode_correction": "triple_ia_moyenne",
-  "statut_publication": "brouillon",
-  "date_correction": "2025-07-21T17:53:09.631192",
+  "statut_publication": "publie",
+  "date_correction": "2025-07-23T13:44:23.341214",
   "corrections_multiples": [
     {
       "etudiant_nom": "TAH",
       "etudiant_prenom": "Sarah",
-      "note_totale": 0.0,
+      "note_totale": 13.0,
       "note_maximale": 20.0,
-      "pourcentage": 0.0,
+      "pourcentage": 65.0,
       "rang_classe": 1,
-      "timestamp": "2025-07-21T17:52:53.220627",
-      "commentaires_generaux": "Erreur correction IA: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
-      "points_forts": [],
-      "points_amelioration": [],
-      "conseils_personnalises": [],
+      "timestamp": "2025-07-23T13:43:23.023257",
+      "commentaires_generaux": "Marie, vous avez montré une bonne compréhension des concepts mathématiques, mais quelques erreurs de calcul ont affecté votre performance globale. La maîtrise de la factorisation est excellente, mais il est important de vérifier chaque étape de vos calculs pour éviter les erreurs d'inattention. Continuez à travailler sur la précision de vos calculs et la résolution d'équations.",
+      "points_forts": [
+        "Bonne compréhension des concepts de base en algèbre.",
+        "Maîtrise de la factorisation des polynômes.",
+        "Capacité à appliquer les formules mathématiques."
+      ],
+      "points_amelioration": [
+        "Attention aux erreurs de calcul simples qui peuvent affecter le résultat final.",
+        "Revoir les techniques de résolution d'équations linéaires.",
+        "Vérification systématique des résultats pour éviter les erreurs d'inattention."
+      ],
+      "conseils_personnalises": [
+        "Pratiquez des exercices de calcul mental pour améliorer votre précision.",
+        "Revoyez les techniques de résolution d'équations linéaires.",
+        "Restez motivée et continuez à pratiquer régulièrement pour renforcer vos compétences."
+      ],
       "diagnostic_performance": "",
       "questions": [
         {
           "numero": 1,
           "intitule": "Q1 : \"Résoudre 2x + 5 = 13\"",
           "type": "calcul",
-          "note": 0.0,
+          "note": 3.0,
           "note_max": 4.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
+          "commentaire_intelligent": "Vous avez bien commencé la résolution de l'équation, mais une erreur s'est glissée dans la dernière étape. Vous avez écrit \\(x = 8\\) au lieu de \\(x = 4\\). C'est une petite inattention qui peut être facilement corrigée.",
+          "conseil_personnalise": "Revérifiez toujours vos calculs pour éviter les erreurs d'inattention.",
+          "diagnostic_technique_specialise": "Erreur de calcul dans la simplification finale. Vérification des étapes intermédiaires recommandée.",
+          "pourcentage_reussite": 75.0
         },
         {
           "numero": 2,
           "intitule": "Q2 : \"Calculer f(3) avec f(x) = 2x² - 5x + 1\"",
           "type": "calcul",
-          "note": 0.0,
+          "note": 4.0,
           "note_max": 5.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
+          "commentaire_intelligent": "Vous avez correctement appliqué la fonction pour calculer \\(f(3)\\), mais une erreur de calcul a conduit à un résultat incorrect. La multiplication et l'addition doivent être revues.",
+          "conseil_personnalise": "Refaire les calculs étape par étape pour éviter les erreurs de multiplication et d'addition.",
+          "diagnostic_technique_specialise": "Erreur de calcul dans l'évaluation de l'expression. Vérification des opérations arithmétiques recommandée.",
+          "pourcentage_reussite": 80.0
         },
         {
           "numero": 3,
           "intitule": "Q3 : \"Factoriser x² - 9\"",
           "type": "demonstration",
-          "note": 0.0,
+          "note": 4.0,
           "note_max": 4.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
+          "commentaire_intelligent": "Excellent travail sur la factorisation. Vous avez démontré une parfaite maîtrise de la différence de carrés. Continuez ainsi !",
+          "conseil_personnalise": "Explorez d'autres polynômes pour renforcer votre compréhension des factorisations.",
+          "diagnostic_technique_specialise": "Aucune erreur. Maîtrise parfaite de la technique de factorisation.",
+          "pourcentage_reussite": 100.0
         },
         {
           "numero": 4,
           "intitule": "Q4 : \"Rectangle : longueur (2x+3), largeur x, périmètre 26cm. Trouver x\"",
           "type": "ouverte",
-          "note": 0.0,
+          "note": 2.0,
           "note_max": 7.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
+          "commentaire_intelligent": "Vous avez bien commencé en utilisant la formule du périmètre, mais une erreur dans la résolution de l'équation a conduit à un résultat incorrect. La division finale est incorrecte.",
+          "conseil_personnalise": "Revoir la résolution des équations linéaires et la simplification des fractions.",
+          "diagnostic_technique_specialise": "Erreur dans la simplification et la résolution de l'équation. Revoir les techniques de résolution d'équations linéaires.",
+          "pourcentage_reussite": 28.0
         }
       ],
       "questions_avec_commentaires": [
@@ -171,128 +195,164 @@
           "numero": 1,
           "intitule": "Q1 : \"Résoudre 2x + 5 = 13\"",
           "type": "calcul",
-          "note": 0.0,
+          "note": 3.0,
           "note_max": 4.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
+          "commentaire_intelligent": "Vous avez bien commencé la résolution de l'équation, mais une erreur s'est glissée dans la dernière étape. Vous avez écrit \\(x = 8\\) au lieu de \\(x = 4\\). C'est une petite inattention qui peut être facilement corrigée.",
+          "conseil_personnalise": "Revérifiez toujours vos calculs pour éviter les erreurs d'inattention.",
+          "diagnostic_technique_specialise": "Erreur de calcul dans la simplification finale. Vérification des étapes intermédiaires recommandée.",
+          "pourcentage_reussite": 75.0
         },
         {
           "numero": 2,
           "intitule": "Q2 : \"Calculer f(3) avec f(x) = 2x² - 5x + 1\"",
           "type": "calcul",
-          "note": 0.0,
+          "note": 4.0,
           "note_max": 5.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
+          "commentaire_intelligent": "Vous avez correctement appliqué la fonction pour calculer \\(f(3)\\), mais une erreur de calcul a conduit à un résultat incorrect. La multiplication et l'addition doivent être revues.",
+          "conseil_personnalise": "Refaire les calculs étape par étape pour éviter les erreurs de multiplication et d'addition.",
+          "diagnostic_technique_specialise": "Erreur de calcul dans l'évaluation de l'expression. Vérification des opérations arithmétiques recommandée.",
+          "pourcentage_reussite": 80.0
         },
         {
           "numero": 3,
           "intitule": "Q3 : \"Factoriser x² - 9\"",
           "type": "demonstration",
-          "note": 0.0,
+          "note": 4.0,
           "note_max": 4.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
+          "commentaire_intelligent": "Excellent travail sur la factorisation. Vous avez démontré une parfaite maîtrise de la différence de carrés. Continuez ainsi !",
+          "conseil_personnalise": "Explorez d'autres polynômes pour renforcer votre compréhension des factorisations.",
+          "diagnostic_technique_specialise": "Aucune erreur. Maîtrise parfaite de la technique de factorisation.",
+          "pourcentage_reussite": 100.0
         },
         {
           "numero": 4,
           "intitule": "Q4 : \"Rectangle : longueur (2x+3), largeur x, périmètre 26cm. Trouver x\"",
           "type": "ouverte",
-          "note": 0.0,
+          "note": 2.0,
           "note_max": 7.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
+          "commentaire_intelligent": "Vous avez bien commencé en utilisant la formule du périmètre, mais une erreur dans la résolution de l'équation a conduit à un résultat incorrect. La division finale est incorrecte.",
+          "conseil_personnalise": "Revoir la résolution des équations linéaires et la simplification des fractions.",
+          "diagnostic_technique_specialise": "Erreur dans la simplification et la résolution de l'équation. Revoir les techniques de résolution d'équations linéaires.",
+          "pourcentage_reussite": 28.0
         }
       ],
       "detection_triche": {
-        "similarite_detectee": true,
-        "score_max": 100.0,
+        "similarite_detectee": false,
+        "score_max": -9900.0,
         "algorithme": "ai_analysis"
       },
-      "necessite_revision_humaine": true,
+      "necessite_revision_humaine": false,
       "qualite_correction": {
         "profil_utilise": "Excellence",
-        "confiance_ocr": 0.0,
+        "confiance_ocr": 100.0,
         "modele_ia": "gpt-4o",
         "verification_double": true,
         "expertise_specialisee": "professeur agrégé de MATHÉMATIQUES avec 15 ans d'expérience"
       },
       "ai_details": {
-        "notes_par_question": {},
-        "commentaires_par_question": {},
-        "conseils_par_question": {},
-        "diagnostic_technique_par_question": {},
-        "pourcentages_par_question": {},
-        "transcription_quality": "difficult",
-        "processing_time": 4.6,
+        "notes_par_question": {
+          "Q1": 3.0,
+          "Q2": 4.0,
+          "Q3": 4.0,
+          "Q4": 2.0
+        },
+        "commentaires_par_question": {
+          "Q1": "Vous avez bien commencé la résolution de l'équation, mais une erreur s'est glissée dans la dernière étape. Vous avez écrit \\(x = 8\\) au lieu de \\(x = 4\\). C'est une petite inattention qui peut être facilement corrigée.",
+          "Q2": "Vous avez correctement appliqué la fonction pour calculer \\(f(3)\\), mais une erreur de calcul a conduit à un résultat incorrect. La multiplication et l'addition doivent être revues.",
+          "Q3": "Excellent travail sur la factorisation. Vous avez démontré une parfaite maîtrise de la différence de carrés. Continuez ainsi !",
+          "Q4": "Vous avez bien commencé en utilisant la formule du périmètre, mais une erreur dans la résolution de l'équation a conduit à un résultat incorrect. La division finale est incorrecte."
+        },
+        "conseils_par_question": {
+          "Q1": "Revérifiez toujours vos calculs pour éviter les erreurs d'inattention.",
+          "Q2": "Refaire les calculs étape par étape pour éviter les erreurs de multiplication et d'addition.",
+          "Q3": "Explorez d'autres polynômes pour renforcer votre compréhension des factorisations.",
+          "Q4": "Revoir la résolution des équations linéaires et la simplification des fractions."
+        },
+        "diagnostic_technique_par_question": {
+          "Q1": "Erreur de calcul dans la simplification finale. Vérification des étapes intermédiaires recommandée.",
+          "Q2": "Erreur de calcul dans l'évaluation de l'expression. Vérification des opérations arithmétiques recommandée.",
+          "Q3": "Aucune erreur. Maîtrise parfaite de la technique de factorisation.",
+          "Q4": "Erreur dans la simplification et la résolution de l'équation. Revoir les techniques de résolution d'équations linéaires."
+        },
+        "pourcentages_par_question": {
+          "Q1": 75.0,
+          "Q2": 80.0,
+          "Q3": 100.0,
+          "Q4": 28.0
+        },
+        "transcription_quality": "excellent",
+        "processing_time": 14.25,
         "specialisation_matiere": "professeur agrégé de MATHÉMATIQUES avec 15 ans d'expérience"
       }
     },
     {
       "etudiant_nom": "TAH",
       "etudiant_prenom": "Sarah",
-      "note_totale": 0.0,
+      "note_totale": 11.0,
       "note_maximale": 20.0,
-      "pourcentage": 0.0,
+      "pourcentage": 55.0,
       "rang_classe": 1,
-      "timestamp": "2025-07-21T17:53:01.442487",
-      "commentaires_generaux": "Erreur correction IA: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
-      "points_forts": [],
-      "points_amelioration": [],
-      "conseils_personnalises": [],
+      "timestamp": "2025-07-23T13:43:54.790421",
+      "commentaires_generaux": "Marie, vous avez montré une bonne compréhension des concepts de base, notamment en factorisation. Cependant, des erreurs d'inattention ont affecté vos résultats dans les calculs. Assurez-vous de vérifier chaque étape pour éviter ces erreurs. Continuez à travailler sur la rigueur méthodologique.",
+      "points_forts": [
+        "Bonne compréhension de la factorisation par différence de carrés.",
+        "Démarche méthodique dans l'approche des problèmes."
+      ],
+      "points_amelioration": [
+        "Attention aux erreurs d'inattention dans les calculs.",
+        "Vérification systématique des étapes de résolution.",
+        "Revoir la substitution et simplification des expressions algébriques."
+      ],
+      "conseils_personnalises": [
+        "Pratiquez des exercices de calculs simples pour améliorer votre précision.",
+        "Reprenez les bases de la résolution d'équations linéaires.",
+        "Restez motivée et continuez à travailler régulièrement pour renforcer vos compétences."
+      ],
       "diagnostic_performance": "",
       "questions": [
         {
           "numero": 1,
           "intitule": "Q1 : \"Résoudre 2x + 5 = 13\"",
           "type": "calcul",
-          "note": 0.0,
+          "note": 3.0,
           "note_max": 4.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
+          "commentaire_intelligent": "Vous avez bien commencé la résolution de l'équation, mais une erreur s'est glissée dans la dernière étape. Vous avez écrit \\(x = 8\\) puis \\(x = 4\\), ce qui est incorrect. La bonne réponse est \\(x = 4\\).",
+          "conseil_personnalise": "Revérifiez toujours vos calculs pour éviter les erreurs d'inattention.",
+          "diagnostic_technique_specialise": "Erreur de calcul dans la simplification finale, nécessitant une vérification attentive des étapes.",
+          "pourcentage_reussite": 75.0
         },
         {
           "numero": 2,
           "intitule": "Q2 : \"Calculer f(3) avec f(x) = 2x² - 5x + 1\"",
           "type": "calcul",
-          "note": 0.0,
+          "note": 2.0,
           "note_max": 5.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
+          "commentaire_intelligent": "Vous avez fait une erreur en calculant \\(f(3)\\). Vous avez ajouté un \\(3\\) supplémentaire dans l'expression. La bonne méthode est \\(f(3) = 2 \\times 3^2 - 5 \\times 3 + 1\\).",
+          "conseil_personnalise": "Reprenez la substitution et vérifiez chaque étape pour éviter les erreurs d'inattention.",
+          "diagnostic_technique_specialise": "Confusion dans la substitution et simplification de l'expression algébrique.",
+          "pourcentage_reussite": 40.0
         },
         {
           "numero": 3,
           "intitule": "Q3 : \"Factoriser x² - 9\"",
           "type": "demonstration",
-          "note": 0.0,
+          "note": 4.0,
           "note_max": 4.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
+          "commentaire_intelligent": "Excellent travail ! Vous avez correctement factorisé l'expression en utilisant la différence de carrés. Continuez ainsi !",
+          "conseil_personnalise": "Explorez d'autres techniques de factorisation pour enrichir vos compétences.",
+          "diagnostic_technique_specialise": "Maîtrise parfaite de la technique de la différence de carrés.",
+          "pourcentage_reussite": 100.0
         },
         {
           "numero": 4,
           "intitule": "Q4 : \"Rectangle : longueur (2x+3), largeur x, périmètre 26cm. Trouver x\"",
           "type": "ouverte",
-          "note": 0.0,
+          "note": 2.0,
           "note_max": 7.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
+          "commentaire_intelligent": "Vous avez bien commencé en utilisant la formule du périmètre, mais une erreur s'est produite dans la résolution de l'équation. Le calcul final de \\(x\\) est incorrect.",
+          "conseil_personnalise": "Reprenez la résolution d'équations linéaires et vérifiez chaque étape pour éviter les erreurs de calcul.",
+          "diagnostic_technique_specialise": "Erreur dans la simplification et résolution de l'équation linéaire.",
+          "pourcentage_reussite": 29.0
         }
       ],
       "questions_avec_commentaires": [
@@ -300,128 +360,163 @@
           "numero": 1,
           "intitule": "Q1 : \"Résoudre 2x + 5 = 13\"",
           "type": "calcul",
-          "note": 0.0,
+          "note": 3.0,
           "note_max": 4.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
+          "commentaire_intelligent": "Vous avez bien commencé la résolution de l'équation, mais une erreur s'est glissée dans la dernière étape. Vous avez écrit \\(x = 8\\) puis \\(x = 4\\), ce qui est incorrect. La bonne réponse est \\(x = 4\\).",
+          "conseil_personnalise": "Revérifiez toujours vos calculs pour éviter les erreurs d'inattention.",
+          "diagnostic_technique_specialise": "Erreur de calcul dans la simplification finale, nécessitant une vérification attentive des étapes.",
+          "pourcentage_reussite": 75.0
         },
         {
           "numero": 2,
           "intitule": "Q2 : \"Calculer f(3) avec f(x) = 2x² - 5x + 1\"",
           "type": "calcul",
-          "note": 0.0,
+          "note": 2.0,
           "note_max": 5.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
+          "commentaire_intelligent": "Vous avez fait une erreur en calculant \\(f(3)\\). Vous avez ajouté un \\(3\\) supplémentaire dans l'expression. La bonne méthode est \\(f(3) = 2 \\times 3^2 - 5 \\times 3 + 1\\).",
+          "conseil_personnalise": "Reprenez la substitution et vérifiez chaque étape pour éviter les erreurs d'inattention.",
+          "diagnostic_technique_specialise": "Confusion dans la substitution et simplification de l'expression algébrique.",
+          "pourcentage_reussite": 40.0
         },
         {
           "numero": 3,
           "intitule": "Q3 : \"Factoriser x² - 9\"",
           "type": "demonstration",
-          "note": 0.0,
+          "note": 4.0,
           "note_max": 4.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
+          "commentaire_intelligent": "Excellent travail ! Vous avez correctement factorisé l'expression en utilisant la différence de carrés. Continuez ainsi !",
+          "conseil_personnalise": "Explorez d'autres techniques de factorisation pour enrichir vos compétences.",
+          "diagnostic_technique_specialise": "Maîtrise parfaite de la technique de la différence de carrés.",
+          "pourcentage_reussite": 100.0
         },
         {
           "numero": 4,
           "intitule": "Q4 : \"Rectangle : longueur (2x+3), largeur x, périmètre 26cm. Trouver x\"",
           "type": "ouverte",
-          "note": 0.0,
+          "note": 2.0,
           "note_max": 7.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
+          "commentaire_intelligent": "Vous avez bien commencé en utilisant la formule du périmètre, mais une erreur s'est produite dans la résolution de l'équation. Le calcul final de \\(x\\) est incorrect.",
+          "conseil_personnalise": "Reprenez la résolution d'équations linéaires et vérifiez chaque étape pour éviter les erreurs de calcul.",
+          "diagnostic_technique_specialise": "Erreur dans la simplification et résolution de l'équation linéaire.",
+          "pourcentage_reussite": 29.0
         }
       ],
       "detection_triche": {
-        "similarite_detectee": true,
-        "score_max": 100.0,
+        "similarite_detectee": false,
+        "score_max": -9900.0,
         "algorithme": "ai_analysis"
       },
-      "necessite_revision_humaine": true,
+      "necessite_revision_humaine": false,
       "qualite_correction": {
         "profil_utilise": "Excellence",
-        "confiance_ocr": 0.0,
+        "confiance_ocr": 100.0,
         "modele_ia": "gpt-4o",
         "verification_double": true,
         "expertise_specialisee": "professeur agrégé de MATHÉMATIQUES avec 15 ans d'expérience"
       },
       "ai_details": {
-        "notes_par_question": {},
-        "commentaires_par_question": {},
-        "conseils_par_question": {},
-        "diagnostic_technique_par_question": {},
-        "pourcentages_par_question": {},
-        "transcription_quality": "difficult",
-        "processing_time": 5.32,
+        "notes_par_question": {
+          "Q1": 3.0,
+          "Q2": 2.0,
+          "Q3": 4.0,
+          "Q4": 2.0
+        },
+        "commentaires_par_question": {
+          "Q1": "Vous avez bien commencé la résolution de l'équation, mais une erreur s'est glissée dans la dernière étape. Vous avez écrit \\(x = 8\\) puis \\(x = 4\\), ce qui est incorrect. La bonne réponse est \\(x = 4\\).",
+          "Q2": "Vous avez fait une erreur en calculant \\(f(3)\\). Vous avez ajouté un \\(3\\) supplémentaire dans l'expression. La bonne méthode est \\(f(3) = 2 \\times 3^2 - 5 \\times 3 + 1\\).",
+          "Q3": "Excellent travail ! Vous avez correctement factorisé l'expression en utilisant la différence de carrés. Continuez ainsi !",
+          "Q4": "Vous avez bien commencé en utilisant la formule du périmètre, mais une erreur s'est produite dans la résolution de l'équation. Le calcul final de \\(x\\) est incorrect."
+        },
+        "conseils_par_question": {
+          "Q1": "Revérifiez toujours vos calculs pour éviter les erreurs d'inattention.",
+          "Q2": "Reprenez la substitution et vérifiez chaque étape pour éviter les erreurs d'inattention.",
+          "Q3": "Explorez d'autres techniques de factorisation pour enrichir vos compétences.",
+          "Q4": "Reprenez la résolution d'équations linéaires et vérifiez chaque étape pour éviter les erreurs de calcul."
+        },
+        "diagnostic_technique_par_question": {
+          "Q1": "Erreur de calcul dans la simplification finale, nécessitant une vérification attentive des étapes.",
+          "Q2": "Confusion dans la substitution et simplification de l'expression algébrique.",
+          "Q3": "Maîtrise parfaite de la technique de la différence de carrés.",
+          "Q4": "Erreur dans la simplification et résolution de l'équation linéaire."
+        },
+        "pourcentages_par_question": {
+          "Q1": 75.0,
+          "Q2": 40.0,
+          "Q3": 100.0,
+          "Q4": 29.0
+        },
+        "transcription_quality": "excellent",
+        "processing_time": 17.63,
         "specialisation_matiere": "professeur agrégé de MATHÉMATIQUES avec 15 ans d'expérience"
       }
     },
     {
       "etudiant_nom": "TAH",
       "etudiant_prenom": "Sarah",
-      "note_totale": 0.0,
+      "note_totale": 11.0,
       "note_maximale": 20.0,
-      "pourcentage": 0.0,
+      "pourcentage": 55.0,
       "rang_classe": 1,
-      "timestamp": "2025-07-21T17:53:09.129885",
-      "commentaires_generaux": "Erreur correction IA: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
-      "points_forts": [],
-      "points_amelioration": [],
-      "conseils_personnalises": [],
+      "timestamp": "2025-07-23T13:44:22.840081",
+      "commentaires_generaux": "Marie, vous avez montré une bonne compréhension des concepts de base, notamment en factorisation. Cependant, des erreurs de calcul ont affecté vos résultats dans certaines questions. Assurez-vous de vérifier chaque étape de vos calculs pour éviter ces erreurs à l'avenir.",
+      "points_forts": [
+        "Bonne compréhension de la factorisation des polynômes.",
+        "Capacité à mettre en place des équations à partir de problèmes concrets."
+      ],
+      "points_amelioration": [
+        "Attention aux erreurs de calcul et de transcription.",
+        "Vérification systématique des résultats intermédiaires."
+      ],
+      "conseils_personnalises": [
+        "Pratiquez des exercices de résolution d'équations pour renforcer votre précision.",
+        "Utilisez des outils de vérification comme des calculatrices pour confirmer vos résultats.",
+        "Restez motivée et continuez à travailler sur vos points faibles."
+      ],
       "diagnostic_performance": "",
       "questions": [
         {
           "numero": 1,
           "intitule": "Q1 : \"Résoudre 2x + 5 = 13\"",
           "type": "calcul",
-          "note": 0.0,
+          "note": 3.0,
           "note_max": 4.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
+          "commentaire_intelligent": "Vous avez bien commencé la résolution de l'équation, mais une erreur s'est glissée dans la dernière étape. Vous avez écrit \\(x = 8\\) puis \\(x = 4\\), ce qui est incorrect. La solution correcte est \\(x = 4\\).",
+          "conseil_personnalise": "Vérifiez toujours vos calculs à chaque étape pour éviter les erreurs de transcription.",
+          "diagnostic_technique_specialise": "Erreur de transcription dans la dernière étape de la résolution d'équation.",
+          "pourcentage_reussite": 75.0
         },
         {
           "numero": 2,
           "intitule": "Q2 : \"Calculer f(3) avec f(x) = 2x² - 5x + 1\"",
           "type": "calcul",
-          "note": 0.0,
+          "note": 2.0,
           "note_max": 5.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
+          "commentaire_intelligent": "Vous avez fait une erreur dans le calcul de \\(f(3)\\). Vous avez ajouté \\(3\\) au lieu de multiplier par \\(3\\). La bonne réponse est \\(f(3) = 2 \\times 9 - 15 + 1 = 4\\).",
+          "conseil_personnalise": "Reprenez la substitution et vérifiez chaque opération pour éviter les erreurs de calcul.",
+          "diagnostic_technique_specialise": "Erreur de calcul due à une mauvaise substitution et addition incorrecte.",
+          "pourcentage_reussite": 40.0
         },
         {
           "numero": 3,
           "intitule": "Q3 : \"Factoriser x² - 9\"",
           "type": "demonstration",
-          "note": 0.0,
+          "note": 4.0,
           "note_max": 4.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
+          "commentaire_intelligent": "Excellent travail sur la factorisation. Vous avez correctement appliqué la différence de carrés pour factoriser \\(x^2 - 9\\).",
+          "conseil_personnalise": "Continuez à pratiquer la factorisation pour renforcer votre compréhension.",
+          "diagnostic_technique_specialise": "Maîtrise parfaite de la technique de factorisation par différence de carrés.",
+          "pourcentage_reussite": 100.0
         },
         {
           "numero": 4,
           "intitule": "Q4 : \"Rectangle : longueur (2x+3), largeur x, périmètre 26cm. Trouver x\"",
           "type": "ouverte",
-          "note": 0.0,
+          "note": 2.0,
           "note_max": 7.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
+          "commentaire_intelligent": "Vous avez correctement mis en place l'équation pour le périmètre, mais une erreur de calcul a conduit à une mauvaise valeur de \\(x\\). La solution correcte est \\(x = 3\\).",
+          "conseil_personnalise": "Revoyez les étapes de résolution d'équations linéaires et vérifiez vos calculs.",
+          "diagnostic_technique_specialise": "Erreur de calcul dans la résolution de l'équation linéaire pour le périmètre.",
+          "pourcentage_reussite": 28.0
         }
       ],
       "questions_avec_commentaires": [
@@ -429,71 +524,97 @@
           "numero": 1,
           "intitule": "Q1 : \"Résoudre 2x + 5 = 13\"",
           "type": "calcul",
-          "note": 0.0,
+          "note": 3.0,
           "note_max": 4.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
+          "commentaire_intelligent": "Vous avez bien commencé la résolution de l'équation, mais une erreur s'est glissée dans la dernière étape. Vous avez écrit \\(x = 8\\) puis \\(x = 4\\), ce qui est incorrect. La solution correcte est \\(x = 4\\).",
+          "conseil_personnalise": "Vérifiez toujours vos calculs à chaque étape pour éviter les erreurs de transcription.",
+          "diagnostic_technique_specialise": "Erreur de transcription dans la dernière étape de la résolution d'équation.",
+          "pourcentage_reussite": 75.0
         },
         {
           "numero": 2,
           "intitule": "Q2 : \"Calculer f(3) avec f(x) = 2x² - 5x + 1\"",
           "type": "calcul",
-          "note": 0.0,
+          "note": 2.0,
           "note_max": 5.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
+          "commentaire_intelligent": "Vous avez fait une erreur dans le calcul de \\(f(3)\\). Vous avez ajouté \\(3\\) au lieu de multiplier par \\(3\\). La bonne réponse est \\(f(3) = 2 \\times 9 - 15 + 1 = 4\\).",
+          "conseil_personnalise": "Reprenez la substitution et vérifiez chaque opération pour éviter les erreurs de calcul.",
+          "diagnostic_technique_specialise": "Erreur de calcul due à une mauvaise substitution et addition incorrecte.",
+          "pourcentage_reussite": 40.0
         },
         {
           "numero": 3,
           "intitule": "Q3 : \"Factoriser x² - 9\"",
           "type": "demonstration",
-          "note": 0.0,
+          "note": 4.0,
           "note_max": 4.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
+          "commentaire_intelligent": "Excellent travail sur la factorisation. Vous avez correctement appliqué la différence de carrés pour factoriser \\(x^2 - 9\\).",
+          "conseil_personnalise": "Continuez à pratiquer la factorisation pour renforcer votre compréhension.",
+          "diagnostic_technique_specialise": "Maîtrise parfaite de la technique de factorisation par différence de carrés.",
+          "pourcentage_reussite": 100.0
         },
         {
           "numero": 4,
           "intitule": "Q4 : \"Rectangle : longueur (2x+3), largeur x, périmètre 26cm. Trouver x\"",
           "type": "ouverte",
-          "note": 0.0,
+          "note": 2.0,
           "note_max": 7.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
+          "commentaire_intelligent": "Vous avez correctement mis en place l'équation pour le périmètre, mais une erreur de calcul a conduit à une mauvaise valeur de \\(x\\). La solution correcte est \\(x = 3\\).",
+          "conseil_personnalise": "Revoyez les étapes de résolution d'équations linéaires et vérifiez vos calculs.",
+          "diagnostic_technique_specialise": "Erreur de calcul dans la résolution de l'équation linéaire pour le périmètre.",
+          "pourcentage_reussite": 28.0
         }
       ],
       "detection_triche": {
-        "similarite_detectee": true,
-        "score_max": 100.0,
+        "similarite_detectee": false,
+        "score_max": -9900.0,
         "algorithme": "ai_analysis"
       },
-      "necessite_revision_humaine": true,
+      "necessite_revision_humaine": false,
       "qualite_correction": {
         "profil_utilise": "Excellence",
-        "confiance_ocr": 0.0,
+        "confiance_ocr": 100.0,
         "modele_ia": "gpt-4o",
         "verification_double": true,
         "expertise_specialisee": "professeur agrégé de MATHÉMATIQUES avec 15 ans d'expérience"
       },
       "ai_details": {
-        "notes_par_question": {},
-        "commentaires_par_question": {},
-        "conseils_par_question": {},
-        "diagnostic_technique_par_question": {},
-        "pourcentages_par_question": {},
-        "transcription_quality": "difficult",
-        "processing_time": 4.83,
+        "notes_par_question": {
+          "Q1": 3.0,
+          "Q2": 2.0,
+          "Q3": 4.0,
+          "Q4": 2.0
+        },
+        "commentaires_par_question": {
+          "Q1": "Vous avez bien commencé la résolution de l'équation, mais une erreur s'est glissée dans la dernière étape. Vous avez écrit \\(x = 8\\) puis \\(x = 4\\), ce qui est incorrect. La solution correcte est \\(x = 4\\).",
+          "Q2": "Vous avez fait une erreur dans le calcul de \\(f(3)\\). Vous avez ajouté \\(3\\) au lieu de multiplier par \\(3\\). La bonne réponse est \\(f(3) = 2 \\times 9 - 15 + 1 = 4\\).",
+          "Q3": "Excellent travail sur la factorisation. Vous avez correctement appliqué la différence de carrés pour factoriser \\(x^2 - 9\\).",
+          "Q4": "Vous avez correctement mis en place l'équation pour le périmètre, mais une erreur de calcul a conduit à une mauvaise valeur de \\(x\\). La solution correcte est \\(x = 3\\)."
+        },
+        "conseils_par_question": {
+          "Q1": "Vérifiez toujours vos calculs à chaque étape pour éviter les erreurs de transcription.",
+          "Q2": "Reprenez la substitution et vérifiez chaque opération pour éviter les erreurs de calcul.",
+          "Q3": "Continuez à pratiquer la factorisation pour renforcer votre compréhension.",
+          "Q4": "Revoyez les étapes de résolution d'équations linéaires et vérifiez vos calculs."
+        },
+        "diagnostic_technique_par_question": {
+          "Q1": "Erreur de transcription dans la dernière étape de la résolution d'équation.",
+          "Q2": "Erreur de calcul due à une mauvaise substitution et addition incorrecte.",
+          "Q3": "Maîtrise parfaite de la technique de factorisation par différence de carrés.",
+          "Q4": "Erreur de calcul dans la résolution de l'équation linéaire pour le périmètre."
+        },
+        "pourcentages_par_question": {
+          "Q1": 75.0,
+          "Q2": 40.0,
+          "Q3": 100.0,
+          "Q4": 28.0
+        },
+        "transcription_quality": "excellent",
+        "processing_time": 14.86,
         "specialisation_matiere": "professeur agrégé de MATHÉMATIQUES avec 15 ans d'expérience"
       }
     }
   ],
-  "necessite_revision_humaine": false
+  "necessite_revision_humaine": false,
+  "date_maj_publication": "2025-07-23T14:16:43.029614"
 }

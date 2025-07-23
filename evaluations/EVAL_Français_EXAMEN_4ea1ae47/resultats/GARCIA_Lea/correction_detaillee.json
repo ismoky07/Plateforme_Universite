@@ -1,87 +1,405 @@
 {
   "etudiant_nom": "GARCIA",
   "etudiant_prenom": "Lea",
-  "note_totale": 0.0,
-  "note_maximale": 20.0,
-  "pourcentage": 0.0,
-  "rang_classe": 3,
-  "timestamp": "2025-07-23T11:08:46.707218",
-  "commentaires_generaux": "Erreur correction IA: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
-  "points_forts": [],
+  "note_totale": 12,
+  "note_brute_moyenne": 12.17,
+  "notes_detaillees": {
+    "Q1": {
+      "note": 6,
+      "note_brute": 6.0,
+      "corrections_individuelles": [
+        6.0,
+        6.0,
+        6.0
+      ]
+    },
+    "Q2": {
+      "note": 6,
+      "note_brute": 6.17,
+      "corrections_individuelles": [
+        6.0,
+        6.5,
+        6.0
+      ]
+    }
+  },
+  "commentaires_generaux": "Votre copie montre une bonne compréhension des concepts littéraires de base, mais gagnerait à être enrichie par des analyses plus détaillées et des exemples concrets. En approfondissant vos réponses, vous pourrez mieux démontrer votre maîtrise des sujets abordés.",
+  "points_forts": [
+    "Bonne identification des éléments clés dans les deux questions.",
+    "Compréhension générale des concepts littéraires.",
+    "Capacité à reconnaître les caractéristiques stylistiques et littéraires."
+  ],
   "points_amelioration": [],
-  "conseils_personnalises": [],
-  "diagnostic_performance": "",
+  "conseils_personnalises": [
+    "Travaillez sur l'approfondissement de vos analyses en vous concentrant sur les détails stylistiques et littéraires.",
+    "Étudiez des œuvres clés des mouvements littéraires pour mieux illustrer vos réponses.",
+    "Continuez à développer votre vocabulaire littéraire pour enrichir vos analyses."
+  ],
   "questions": [
     {
       "numero": 1,
       "intitule": "Analyse stylistique Analysez les procédés stylistiques dans cette phrase de Flaubert : \"Emma se repentait d'avoir aimé ; mais cette pensée, loin de la consoler, l'irritait davantage.\"",
       "type": "ouverte",
-      "note": 0.0,
+      "note": 6.0,
       "note_max": 10.0,
-      "commentaire_intelligent": "",
-      "conseil_personnalise": "",
-      "diagnostic_technique_specialise": "",
-      "pourcentage_reussite": 0.0
+      "commentaire_intelligent": "Vous avez bien identifié la contradiction dans les sentiments d'Emma et l'utilisation du mot \"mais\" pour marquer l'opposition. Cependant, l'analyse pourrait être approfondie en explorant davantage les procédés stylistiques de Flaubert, tels que le choix des mots et le rythme de la phrase.",
+      "conseil_personnalise": "Pour améliorer votre analyse, essayez de détailler comment chaque mot ou structure contribue à l'effet global de la phrase.",
+      "diagnostic_technique_specialise": "L'analyse stylistique nécessite une attention particulière aux nuances du texte, notamment les choix lexicaux et syntaxiques qui révèlent la psychologie des personnages.",
+      "pourcentage_reussite": 60.0
     },
     {
       "numero": 2,
       "intitule": "Mouvement littéraire Définissez le romantisme et citez deux caractéristiques principales avec un exemple d'auteur.",
       "type": "ouverte",
-      "note": 0.0,
+      "note": 6.0,
       "note_max": 10.0,
-      "commentaire_intelligent": "",
-      "conseil_personnalise": "",
-      "diagnostic_technique_specialise": "",
-      "pourcentage_reussite": 0.0
+      "commentaire_intelligent": "Vous avez correctement identifié le romantisme comme un mouvement du 19ème siècle et mentionné des caractéristiques pertinentes. Cependant, l'exemple d'auteur pourrait être mieux intégré en expliquant comment ses œuvres illustrent ces caractéristiques.",
+      "conseil_personnalise": "Pour renforcer votre réponse, développez davantage les exemples d'œuvres qui incarnent les caractéristiques du romantisme.",
+      "diagnostic_technique_specialise": "Une définition précise du mouvement littéraire doit inclure des exemples concrets et une explication de leur pertinence par rapport aux caractéristiques mentionnées.",
+      "pourcentage_reussite": 60.0
     }
   ],
-  "questions_avec_commentaires": [
-    {
-      "numero": 1,
-      "intitule": "Analyse stylistique Analysez les procédés stylistiques dans cette phrase de Flaubert : \"Emma se repentait d'avoir aimé ; mais cette pensée, loin de la consoler, l'irritait davantage.\"",
-      "type": "ouverte",
-      "note": 0.0,
-      "note_max": 10.0,
-      "commentaire_intelligent": "",
-      "conseil_personnalise": "",
-      "diagnostic_technique_specialise": "",
-      "pourcentage_reussite": 0.0
-    },
-    {
-      "numero": 2,
-      "intitule": "Mouvement littéraire Définissez le romantisme et citez deux caractéristiques principales avec un exemple d'auteur.",
-      "type": "ouverte",
-      "note": 0.0,
-      "note_max": 10.0,
-      "commentaire_intelligent": "",
-      "conseil_personnalise": "",
-      "diagnostic_technique_specialise": "",
-      "pourcentage_reussite": 0.0
-    }
-  ],
-  "detection_triche": {
-    "similarite_detectee": true,
-    "score_max": 100.0,
-    "algorithme": "ai_analysis"
-  },
-  "necessite_revision_humaine": true,
   "qualite_correction": {
-    "profil_utilise": "Excellence",
-    "confiance_ocr": 0.0,
-    "modele_ia": "gpt-4o",
-    "verification_double": true,
-    "expertise_specialisee": "professeur agrégé de LETTRES MODERNES avec spécialisation en littérature française"
+    "confiance_ocr": 95.0,
+    "coherence_correction": 0.85,
+    "nombre_corrections": 3,
+    "note_brute_moyenne": 12.17,
+    "ecart_type": 0.24,
+    "notes_individuelles": [
+      12.0,
+      12.5,
+      12.0
+    ]
   },
-  "ai_details": {
-    "notes_par_question": {},
-    "commentaires_par_question": {},
-    "conseils_par_question": {},
-    "diagnostic_technique_par_question": {},
-    "pourcentages_par_question": {},
-    "transcription_quality": "difficult",
-    "processing_time": 4.36,
-    "specialisation_matiere": "professeur agrégé de LETTRES MODERNES avec spécialisation en littérature française"
-  },
-  "statut_publication": "brouillon",
-  "date_correction": "2025-07-23T11:08:55.368536"
+  "methode_correction": "triple_ia_moyenne",
+  "statut_publication": "publie",
+  "date_correction": "2025-07-23T14:14:21.794527",
+  "corrections_multiples": [
+    {
+      "etudiant_nom": "GARCIA",
+      "etudiant_prenom": "Lea",
+      "note_totale": 12.0,
+      "note_maximale": 20.0,
+      "pourcentage": 60.0,
+      "rang_classe": 1,
+      "timestamp": "2025-07-23T14:13:24.974474",
+      "commentaires_generaux": "Votre copie montre une bonne compréhension des concepts littéraires de base, mais gagnerait à être enrichie par des analyses plus détaillées et des exemples concrets. En approfondissant vos réponses, vous pourrez mieux démontrer votre maîtrise des sujets abordés.",
+      "points_forts": [
+        "Bonne identification des éléments clés dans les deux questions.",
+        "Compréhension générale des concepts littéraires.",
+        "Capacité à reconnaître les caractéristiques stylistiques et littéraires."
+      ],
+      "points_amelioration": [],
+      "conseils_personnalises": [
+        "Travaillez sur l'approfondissement de vos analyses en vous concentrant sur les détails stylistiques et littéraires.",
+        "Étudiez des œuvres clés des mouvements littéraires pour mieux illustrer vos réponses.",
+        "Continuez à développer votre vocabulaire littéraire pour enrichir vos analyses."
+      ],
+      "diagnostic_performance": "",
+      "questions": [
+        {
+          "numero": 1,
+          "intitule": "Analyse stylistique Analysez les procédés stylistiques dans cette phrase de Flaubert : \"Emma se repentait d'avoir aimé ; mais cette pensée, loin de la consoler, l'irritait davantage.\"",
+          "type": "ouverte",
+          "note": 6.0,
+          "note_max": 10.0,
+          "commentaire_intelligent": "Vous avez bien identifié la contradiction dans les sentiments d'Emma et l'utilisation du mot \"mais\" pour marquer l'opposition. Cependant, l'analyse pourrait être approfondie en explorant davantage les procédés stylistiques de Flaubert, tels que le choix des mots et le rythme de la phrase.",
+          "conseil_personnalise": "Pour améliorer votre analyse, essayez de détailler comment chaque mot ou structure contribue à l'effet global de la phrase.",
+          "diagnostic_technique_specialise": "L'analyse stylistique nécessite une attention particulière aux nuances du texte, notamment les choix lexicaux et syntaxiques qui révèlent la psychologie des personnages.",
+          "pourcentage_reussite": 60.0
+        },
+        {
+          "numero": 2,
+          "intitule": "Mouvement littéraire Définissez le romantisme et citez deux caractéristiques principales avec un exemple d'auteur.",
+          "type": "ouverte",
+          "note": 6.0,
+          "note_max": 10.0,
+          "commentaire_intelligent": "Vous avez correctement identifié le romantisme comme un mouvement du 19ème siècle et mentionné des caractéristiques pertinentes. Cependant, l'exemple d'auteur pourrait être mieux intégré en expliquant comment ses œuvres illustrent ces caractéristiques.",
+          "conseil_personnalise": "Pour renforcer votre réponse, développez davantage les exemples d'œuvres qui incarnent les caractéristiques du romantisme.",
+          "diagnostic_technique_specialise": "Une définition précise du mouvement littéraire doit inclure des exemples concrets et une explication de leur pertinence par rapport aux caractéristiques mentionnées.",
+          "pourcentage_reussite": 60.0
+        }
+      ],
+      "questions_avec_commentaires": [
+        {
+          "numero": 1,
+          "intitule": "Analyse stylistique Analysez les procédés stylistiques dans cette phrase de Flaubert : \"Emma se repentait d'avoir aimé ; mais cette pensée, loin de la consoler, l'irritait davantage.\"",
+          "type": "ouverte",
+          "note": 6.0,
+          "note_max": 10.0,
+          "commentaire_intelligent": "Vous avez bien identifié la contradiction dans les sentiments d'Emma et l'utilisation du mot \"mais\" pour marquer l'opposition. Cependant, l'analyse pourrait être approfondie en explorant davantage les procédés stylistiques de Flaubert, tels que le choix des mots et le rythme de la phrase.",
+          "conseil_personnalise": "Pour améliorer votre analyse, essayez de détailler comment chaque mot ou structure contribue à l'effet global de la phrase.",
+          "diagnostic_technique_specialise": "L'analyse stylistique nécessite une attention particulière aux nuances du texte, notamment les choix lexicaux et syntaxiques qui révèlent la psychologie des personnages.",
+          "pourcentage_reussite": 60.0
+        },
+        {
+          "numero": 2,
+          "intitule": "Mouvement littéraire Définissez le romantisme et citez deux caractéristiques principales avec un exemple d'auteur.",
+          "type": "ouverte",
+          "note": 6.0,
+          "note_max": 10.0,
+          "commentaire_intelligent": "Vous avez correctement identifié le romantisme comme un mouvement du 19ème siècle et mentionné des caractéristiques pertinentes. Cependant, l'exemple d'auteur pourrait être mieux intégré en expliquant comment ses œuvres illustrent ces caractéristiques.",
+          "conseil_personnalise": "Pour renforcer votre réponse, développez davantage les exemples d'œuvres qui incarnent les caractéristiques du romantisme.",
+          "diagnostic_technique_specialise": "Une définition précise du mouvement littéraire doit inclure des exemples concrets et une explication de leur pertinence par rapport aux caractéristiques mentionnées.",
+          "pourcentage_reussite": 60.0
+        }
+      ],
+      "detection_triche": {
+        "similarite_detectee": false,
+        "score_max": -9400.0,
+        "algorithme": "ai_analysis"
+      },
+      "necessite_revision_humaine": false,
+      "qualite_correction": {
+        "profil_utilise": "Excellence",
+        "confiance_ocr": 95.0,
+        "modele_ia": "gpt-4o",
+        "verification_double": true,
+        "expertise_specialisee": "professeur agrégé de LETTRES MODERNES avec spécialisation en littérature française"
+      },
+      "ai_details": {
+        "notes_par_question": {
+          "Q1": 6.0,
+          "Q2": 6.0
+        },
+        "commentaires_par_question": {
+          "Q1": "Vous avez bien identifié la contradiction dans les sentiments d'Emma et l'utilisation du mot \"mais\" pour marquer l'opposition. Cependant, l'analyse pourrait être approfondie en explorant davantage les procédés stylistiques de Flaubert, tels que le choix des mots et le rythme de la phrase.",
+          "Q2": "Vous avez correctement identifié le romantisme comme un mouvement du 19ème siècle et mentionné des caractéristiques pertinentes. Cependant, l'exemple d'auteur pourrait être mieux intégré en expliquant comment ses œuvres illustrent ces caractéristiques."
+        },
+        "conseils_par_question": {
+          "Q1": "Pour améliorer votre analyse, essayez de détailler comment chaque mot ou structure contribue à l'effet global de la phrase.",
+          "Q2": "Pour renforcer votre réponse, développez davantage les exemples d'œuvres qui incarnent les caractéristiques du romantisme."
+        },
+        "diagnostic_technique_par_question": {
+          "Q1": "L'analyse stylistique nécessite une attention particulière aux nuances du texte, notamment les choix lexicaux et syntaxiques qui révèlent la psychologie des personnages.",
+          "Q2": "Une définition précise du mouvement littéraire doit inclure des exemples concrets et une explication de leur pertinence par rapport aux caractéristiques mentionnées."
+        },
+        "pourcentages_par_question": {
+          "Q1": 60.0,
+          "Q2": 60.0
+        },
+        "transcription_quality": "good",
+        "processing_time": 17.79,
+        "specialisation_matiere": "professeur agrégé de LETTRES MODERNES avec spécialisation en littérature française"
+      }
+    },
+    {
+      "etudiant_nom": "GARCIA",
+      "etudiant_prenom": "Lea",
+      "note_totale": 12.5,
+      "note_maximale": 20.0,
+      "pourcentage": 62.5,
+      "rang_classe": 1,
+      "timestamp": "2025-07-23T14:13:54.164225",
+      "commentaires_generaux": "Votre copie montre une bonne compréhension des concepts littéraires de base, mais il est important de développer vos analyses pour atteindre un niveau supérieur. En approfondissant vos réponses et en intégrant des exemples plus détaillés, vous pourrez améliorer votre performance.",
+      "points_forts": [
+        "Bonne identification des éléments clés dans les deux questions.",
+        "Utilisation correcte de termes littéraires.",
+        "Références pertinentes aux auteurs et mouvements littéraires."
+      ],
+      "points_amelioration": [],
+      "conseils_personnalises": [
+        "Travaillez sur l'analyse détaillée des textes littéraires en vous concentrant sur les procédés stylistiques.",
+        "Étudiez les œuvres des auteurs mentionnés pour mieux comprendre comment ils illustrent les caractéristiques des mouvements littéraires.",
+        "Continuez à lire des œuvres littéraires pour enrichir votre culture générale et votre compréhension des styles d'écriture."
+      ],
+      "diagnostic_performance": "",
+      "questions": [
+        {
+          "numero": 1,
+          "intitule": "Analyse stylistique Analysez les procédés stylistiques dans cette phrase de Flaubert : \"Emma se repentait d'avoir aimé ; mais cette pensée, loin de la consoler, l'irritait davantage.\"",
+          "type": "ouverte",
+          "note": 6.0,
+          "note_max": 10.0,
+          "commentaire_intelligent": "Vous avez bien identifié la contradiction dans les sentiments d'Emma et l'utilisation du mot \"mais\" pour marquer l'opposition. Cependant, l'analyse pourrait être approfondie en explorant davantage les procédés stylistiques de Flaubert, tels que le choix des mots et le rythme de la phrase.",
+          "conseil_personnalise": "Pour améliorer votre analyse, concentrez-vous sur l'exploration des nuances stylistiques et des effets produits par le choix des mots.",
+          "diagnostic_technique_specialise": "L'analyse stylistique nécessite une attention particulière aux détails linguistiques et à la manière dont ils contribuent à l'effet global du texte.",
+          "pourcentage_reussite": 60.0
+        },
+        {
+          "numero": 2,
+          "intitule": "Mouvement littéraire Définissez le romantisme et citez deux caractéristiques principales avec un exemple d'auteur.",
+          "type": "ouverte",
+          "note": 6.5,
+          "note_max": 10.0,
+          "commentaire_intelligent": "Vous avez correctement identifié le romantisme comme un mouvement du 19ème siècle et mentionné des caractéristiques pertinentes. Cependant, l'exemple d'auteur pourrait être mieux intégré en expliquant comment ses œuvres illustrent ces caractéristiques.",
+          "conseil_personnalise": "Pour renforcer votre réponse, développez davantage l'exemple d'auteur en le liant directement aux caractéristiques du romantisme.",
+          "diagnostic_technique_specialise": "Une définition précise et des exemples bien intégrés sont essentiels pour démontrer une compréhension approfondie des mouvements littéraires.",
+          "pourcentage_reussite": 65.0
+        }
+      ],
+      "questions_avec_commentaires": [
+        {
+          "numero": 1,
+          "intitule": "Analyse stylistique Analysez les procédés stylistiques dans cette phrase de Flaubert : \"Emma se repentait d'avoir aimé ; mais cette pensée, loin de la consoler, l'irritait davantage.\"",
+          "type": "ouverte",
+          "note": 6.0,
+          "note_max": 10.0,
+          "commentaire_intelligent": "Vous avez bien identifié la contradiction dans les sentiments d'Emma et l'utilisation du mot \"mais\" pour marquer l'opposition. Cependant, l'analyse pourrait être approfondie en explorant davantage les procédés stylistiques de Flaubert, tels que le choix des mots et le rythme de la phrase.",
+          "conseil_personnalise": "Pour améliorer votre analyse, concentrez-vous sur l'exploration des nuances stylistiques et des effets produits par le choix des mots.",
+          "diagnostic_technique_specialise": "L'analyse stylistique nécessite une attention particulière aux détails linguistiques et à la manière dont ils contribuent à l'effet global du texte.",
+          "pourcentage_reussite": 60.0
+        },
+        {
+          "numero": 2,
+          "intitule": "Mouvement littéraire Définissez le romantisme et citez deux caractéristiques principales avec un exemple d'auteur.",
+          "type": "ouverte",
+          "note": 6.5,
+          "note_max": 10.0,
+          "commentaire_intelligent": "Vous avez correctement identifié le romantisme comme un mouvement du 19ème siècle et mentionné des caractéristiques pertinentes. Cependant, l'exemple d'auteur pourrait être mieux intégré en expliquant comment ses œuvres illustrent ces caractéristiques.",
+          "conseil_personnalise": "Pour renforcer votre réponse, développez davantage l'exemple d'auteur en le liant directement aux caractéristiques du romantisme.",
+          "diagnostic_technique_specialise": "Une définition précise et des exemples bien intégrés sont essentiels pour démontrer une compréhension approfondie des mouvements littéraires.",
+          "pourcentage_reussite": 65.0
+        }
+      ],
+      "detection_triche": {
+        "similarite_detectee": false,
+        "score_max": -9400.0,
+        "algorithme": "ai_analysis"
+      },
+      "necessite_revision_humaine": false,
+      "qualite_correction": {
+        "profil_utilise": "Excellence",
+        "confiance_ocr": 95.0,
+        "modele_ia": "gpt-4o",
+        "verification_double": true,
+        "expertise_specialisee": "professeur agrégé de LETTRES MODERNES avec spécialisation en littérature française"
+      },
+      "ai_details": {
+        "notes_par_question": {
+          "Q1": 6.0,
+          "Q2": 6.5
+        },
+        "commentaires_par_question": {
+          "Q1": "Vous avez bien identifié la contradiction dans les sentiments d'Emma et l'utilisation du mot \"mais\" pour marquer l'opposition. Cependant, l'analyse pourrait être approfondie en explorant davantage les procédés stylistiques de Flaubert, tels que le choix des mots et le rythme de la phrase.",
+          "Q2": "Vous avez correctement identifié le romantisme comme un mouvement du 19ème siècle et mentionné des caractéristiques pertinentes. Cependant, l'exemple d'auteur pourrait être mieux intégré en expliquant comment ses œuvres illustrent ces caractéristiques."
+        },
+        "conseils_par_question": {
+          "Q1": "Pour améliorer votre analyse, concentrez-vous sur l'exploration des nuances stylistiques et des effets produits par le choix des mots.",
+          "Q2": "Pour renforcer votre réponse, développez davantage l'exemple d'auteur en le liant directement aux caractéristiques du romantisme."
+        },
+        "diagnostic_technique_par_question": {
+          "Q1": "L'analyse stylistique nécessite une attention particulière aux détails linguistiques et à la manière dont ils contribuent à l'effet global du texte.",
+          "Q2": "Une définition précise et des exemples bien intégrés sont essentiels pour démontrer une compréhension approfondie des mouvements littéraires."
+        },
+        "pourcentages_par_question": {
+          "Q1": 60.0,
+          "Q2": 65.0
+        },
+        "transcription_quality": "good",
+        "processing_time": 11.64,
+        "specialisation_matiere": "professeur agrégé de LETTRES MODERNES avec spécialisation en littérature française"
+      }
+    },
+    {
+      "etudiant_nom": "GARCIA",
+      "etudiant_prenom": "Lea",
+      "note_totale": 12.0,
+      "note_maximale": 20.0,
+      "pourcentage": 60.0,
+      "rang_classe": 1,
+      "timestamp": "2025-07-23T14:14:21.291576",
+      "commentaires_generaux": "Votre copie montre une bonne compréhension des concepts littéraires de base, mais gagnerait à être enrichie par des analyses plus détaillées et des exemples plus développés. En travaillant sur la profondeur de vos réponses, vous pourrez atteindre un niveau d'excellence.",
+      "points_forts": [
+        "Bonne identification des éléments clés dans les deux questions.",
+        "Utilisation correcte de références littéraires pertinentes.",
+        "Compréhension globale des concepts littéraires abordés."
+      ],
+      "points_amelioration": [],
+      "conseils_personnalises": [
+        "Travaillez sur l'approfondissement de vos analyses littéraires en vous concentrant sur les détails stylistiques.",
+        "Révisez les caractéristiques des mouvements littéraires en vous appuyant sur des exemples concrets et variés.",
+        "Continuez à lire des œuvres littéraires pour enrichir votre culture et votre compréhension des styles et des mouvements."
+      ],
+      "diagnostic_performance": "",
+      "questions": [
+        {
+          "numero": 1,
+          "intitule": "Analyse stylistique Analysez les procédés stylistiques dans cette phrase de Flaubert : \"Emma se repentait d'avoir aimé ; mais cette pensée, loin de la consoler, l'irritait davantage.\"",
+          "type": "ouverte",
+          "note": 6.0,
+          "note_max": 10.0,
+          "commentaire_intelligent": "Vous avez bien identifié la contradiction dans les sentiments d'Emma et l'utilisation du mot \"mais\" pour marquer l'opposition. Cependant, l'analyse pourrait être approfondie en explorant davantage les procédés stylistiques de Flaubert, tels que le choix des mots et le rythme de la phrase.",
+          "conseil_personnalise": "Pour améliorer votre analyse, essayez de détailler comment chaque mot ou expression contribue à l'effet global de la phrase.",
+          "diagnostic_technique_specialise": "L'analyse stylistique nécessite une attention particulière aux détails linguistiques et à la manière dont ils servent le propos de l'auteur. Ici, une exploration plus poussée des nuances psychologiques et stylistiques aurait enrichi votre réponse.",
+          "pourcentage_reussite": 60.0
+        },
+        {
+          "numero": 2,
+          "intitule": "Mouvement littéraire Définissez le romantisme et citez deux caractéristiques principales avec un exemple d'auteur.",
+          "type": "ouverte",
+          "note": 6.0,
+          "note_max": 10.0,
+          "commentaire_intelligent": "Vous avez correctement identifié le romantisme comme un mouvement du 19ème siècle et mentionné des caractéristiques pertinentes. Cependant, votre réponse aurait gagné en précision avec des exemples plus développés et une explication plus détaillée des caractéristiques mentionnées.",
+          "conseil_personnalise": "Pour renforcer votre réponse, développez davantage les exemples d'auteurs et d'œuvres qui illustrent les caractéristiques du romantisme.",
+          "diagnostic_technique_specialise": "La définition d'un mouvement littéraire doit inclure des exemples concrets et une explication claire des caractéristiques principales. Une meilleure articulation entre les caractéristiques et les exemples aurait été bénéfique.",
+          "pourcentage_reussite": 60.0
+        }
+      ],
+      "questions_avec_commentaires": [
+        {
+          "numero": 1,
+          "intitule": "Analyse stylistique Analysez les procédés stylistiques dans cette phrase de Flaubert : \"Emma se repentait d'avoir aimé ; mais cette pensée, loin de la consoler, l'irritait davantage.\"",
+          "type": "ouverte",
+          "note": 6.0,
+          "note_max": 10.0,
+          "commentaire_intelligent": "Vous avez bien identifié la contradiction dans les sentiments d'Emma et l'utilisation du mot \"mais\" pour marquer l'opposition. Cependant, l'analyse pourrait être approfondie en explorant davantage les procédés stylistiques de Flaubert, tels que le choix des mots et le rythme de la phrase.",
+          "conseil_personnalise": "Pour améliorer votre analyse, essayez de détailler comment chaque mot ou expression contribue à l'effet global de la phrase.",
+          "diagnostic_technique_specialise": "L'analyse stylistique nécessite une attention particulière aux détails linguistiques et à la manière dont ils servent le propos de l'auteur. Ici, une exploration plus poussée des nuances psychologiques et stylistiques aurait enrichi votre réponse.",
+          "pourcentage_reussite": 60.0
+        },
+        {
+          "numero": 2,
+          "intitule": "Mouvement littéraire Définissez le romantisme et citez deux caractéristiques principales avec un exemple d'auteur.",
+          "type": "ouverte",
+          "note": 6.0,
+          "note_max": 10.0,
+          "commentaire_intelligent": "Vous avez correctement identifié le romantisme comme un mouvement du 19ème siècle et mentionné des caractéristiques pertinentes. Cependant, votre réponse aurait gagné en précision avec des exemples plus développés et une explication plus détaillée des caractéristiques mentionnées.",
+          "conseil_personnalise": "Pour renforcer votre réponse, développez davantage les exemples d'auteurs et d'œuvres qui illustrent les caractéristiques du romantisme.",
+          "diagnostic_technique_specialise": "La définition d'un mouvement littéraire doit inclure des exemples concrets et une explication claire des caractéristiques principales. Une meilleure articulation entre les caractéristiques et les exemples aurait été bénéfique.",
+          "pourcentage_reussite": 60.0
+        }
+      ],
+      "detection_triche": {
+        "similarite_detectee": false,
+        "score_max": -9400.0,
+        "algorithme": "ai_analysis"
+      },
+      "necessite_revision_humaine": false,
+      "qualite_correction": {
+        "profil_utilise": "Excellence",
+        "confiance_ocr": 95.0,
+        "modele_ia": "gpt-4o",
+        "verification_double": true,
+        "expertise_specialisee": "professeur agrégé de LETTRES MODERNES avec spécialisation en littérature française"
+      },
+      "ai_details": {
+        "notes_par_question": {
+          "Q1": 6.0,
+          "Q2": 6.0
+        },
+        "commentaires_par_question": {
+          "Q1": "Vous avez bien identifié la contradiction dans les sentiments d'Emma et l'utilisation du mot \"mais\" pour marquer l'opposition. Cependant, l'analyse pourrait être approfondie en explorant davantage les procédés stylistiques de Flaubert, tels que le choix des mots et le rythme de la phrase.",
+          "Q2": "Vous avez correctement identifié le romantisme comme un mouvement du 19ème siècle et mentionné des caractéristiques pertinentes. Cependant, votre réponse aurait gagné en précision avec des exemples plus développés et une explication plus détaillée des caractéristiques mentionnées."
+        },
+        "conseils_par_question": {
+          "Q1": "Pour améliorer votre analyse, essayez de détailler comment chaque mot ou expression contribue à l'effet global de la phrase.",
+          "Q2": "Pour renforcer votre réponse, développez davantage les exemples d'auteurs et d'œuvres qui illustrent les caractéristiques du romantisme."
+        },
+        "diagnostic_technique_par_question": {
+          "Q1": "L'analyse stylistique nécessite une attention particulière aux détails linguistiques et à la manière dont ils servent le propos de l'auteur. Ici, une exploration plus poussée des nuances psychologiques et stylistiques aurait enrichi votre réponse.",
+          "Q2": "La définition d'un mouvement littéraire doit inclure des exemples concrets et une explication claire des caractéristiques principales. Une meilleure articulation entre les caractéristiques et les exemples aurait été bénéfique."
+        },
+        "pourcentages_par_question": {
+          "Q1": 60.0,
+          "Q2": 60.0
+        },
+        "transcription_quality": "good",
+        "processing_time": 12.09,
+        "specialisation_matiere": "professeur agrégé de LETTRES MODERNES avec spécialisation en littérature française"
+      }
+    }
+  ],
+  "necessite_revision_humaine": false,
+  "date_maj_publication": "2025-07-23T14:16:36.464843"
 }

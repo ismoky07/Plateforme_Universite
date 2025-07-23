@@ -397,5 +397,19 @@
     "action": "login",
     "details": "Connexion réussie",
     "ip_address": "localhost"
+  },
+  {
+    "timestamp": "2025-07-23T12:45:09.113926",
+    "username": "admin",
+    "action": "login",
+    "details": "Connexion réussie",
+    "ip_address": "localhost"
+  },
+  {
+    "timestamp": "2025-07-23T13:56:49.841215",
+    "username": "admin",
+    "action": "login",
+    "details": "Connexion réussie",
+    "ip_address": "localhost"
   }
 ]

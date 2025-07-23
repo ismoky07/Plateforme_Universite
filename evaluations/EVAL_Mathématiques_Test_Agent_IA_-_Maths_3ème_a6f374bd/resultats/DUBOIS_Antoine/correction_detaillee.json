@@ -1,71 +1,73 @@
 {
   "etudiant_nom": "DUBOIS",
   "etudiant_prenom": "Antoine",
-  "note_totale": 4,
-  "note_brute_moyenne": 4.0,
+  "note_totale": 14,
+  "note_brute_moyenne": 14.33,
   "notes_detaillees": {
     "Q1": {
-      "note": 0,
-      "note_brute": 0.0,
+      "note": 2,
+      "note_brute": 2.0,
       "corrections_individuelles": [
-        0.0,
-        0.0,
+        3.0,
+        3.0,
         0.0
       ]
     },
     "Q2": {
-      "note": 2,
-      "note_brute": 1.67,
+      "note": 5,
+      "note_brute": 5.0,
       "corrections_individuelles": [
         5.0,
-        0.0,
-        0.0
+        5.0,
+        5.0
       ]
     },
     "Q3": {
-      "note": 1,
-      "note_brute": 1.33,
+      "note": 4,
+      "note_brute": 4.0,
       "corrections_individuelles": [
         4.0,
-        0.0,
-        0.0
+        4.0,
+        4.0
       ]
     },
     "Q4": {
-      "note": 1,
-      "note_brute": 1.0,
+      "note": 3,
+      "note_brute": 3.33,
       "corrections_individuelles": [
         3.0,
-        0.0,
-        0.0
+        3.0,
+        4.0
       ]
     }
   },
-  "commentaires_generaux": "Antoine, tu as montré une bonne compréhension des concepts de base, notamment dans le calcul de fonctions et la factorisation. Cependant, il est crucial de vérifier tes calculs pour éviter des erreurs qui peuvent coûter des points. Continue à pratiquer et à vérifier chaque étape de tes solutions.",
+  "commentaires_generaux": "Antoine, tu as montré une bonne compréhension des concepts mathématiques de base, notamment dans les calculs algébriques et la factorisation. Cependant, il est crucial de bien lire et comprendre les énoncés pour éviter des erreurs qui peuvent coûter des points. Continue à travailler sur la rigueur méthodologique, surtout dans les problèmes géométriques.",
   "points_forts": [
-    "Bonne maîtrise des calculs de fonctions (Q2).",
-    "Excellente compréhension des identités remarquables (Q3)."
+    "Bonne maîtrise des calculs algébriques simples.",
+    "Capacité à factoriser correctement les expressions quadratiques.",
+    "Précision dans les calculs numériques."
   ],
   "points_amelioration": [
-    "Revoir la résolution d'équations linéaires simples (Q1).",
-    "Vérifier les calculs intermédiaires pour éviter les erreurs (Q4)."
+    "Attention à la lecture et à la transcription des énoncés.",
+    "Vérification des formules appliquées dans les problèmes géométriques.",
+    "Revoir les bases des équations pour éviter les erreurs d'interprétation."
   ],
   "conseils_personnalises": [
-    "Revois les techniques de résolution d'équations linéaires pour renforcer ta précision.",
-    "Pratique des exercices supplémentaires sur les périmètres et les équations associées.",
-    "Garde confiance en tes capacités et continue à travailler régulièrement."
+    "Prends le temps de bien lire et comprendre chaque énoncé avant de commencer à résoudre.",
+    "Revois les formules géométriques de base pour éviter les erreurs d'application.",
+    "Continue à pratiquer régulièrement pour renforcer ta confiance et ta précision."
   ],
   "questions": [
     {
       "numero": 1,
       "intitule": "Q1 : \"Résoudre 2x + 5 = 13\"",
       "type": "calcul",
-      "note": 0.0,
+      "note": 3.0,
       "note_max": 4.0,
-      "commentaire_intelligent": "Antoine, il semble que tu aies fait une erreur dans la résolution de l'équation. Tu as correctement isolé 2x, mais l'erreur se situe dans le calcul final de x.",
-      "conseil_personnalise": "Revois la méthode de résolution des équations linéaires, en particulier la dernière étape de division.",
-      "diagnostic_technique_specialise": "Erreur de calcul dans la résolution d'une équation simple. Vérifie chaque étape pour éviter les erreurs de division.",
-      "pourcentage_reussite": 0.0
+      "commentaire_intelligent": "Tu as bien commencé la résolution de l'équation, mais tu as fait une erreur dans l'énoncé initial. La bonne équation était 2x + 5 = 13. Cependant, ta méthode de résolution est correcte.",
+      "conseil_personnalise": "Vérifie toujours l'énoncé avant de commencer à résoudre le problème.",
+      "diagnostic_technique_specialise": "Erreur d'énoncé initial, mais bonne maîtrise de la méthode de résolution d'équation.",
+      "pourcentage_reussite": 75.0
     },
     {
       "numero": 2,
@@ -73,9 +75,9 @@
       "type": "calcul",
       "note": 5.0,
       "note_max": 5.0,
-      "commentaire_intelligent": "Excellent travail, Antoine ! Tu as correctement substitué et calculé la valeur de f(3). Continue sur cette lancée !",
-      "conseil_personnalise": "Pour renforcer ta compréhension, essaie de calculer f(x) pour d'autres valeurs de x.",
-      "diagnostic_technique_specialise": "Calculs exacts et substitution correcte. Bonne maîtrise des opérations sur les polynômes.",
+      "commentaire_intelligent": "Excellent travail ! Tu as correctement substitué et calculé f(3) avec une parfaite exactitude. Continue ainsi !",
+      "conseil_personnalise": "Continue à pratiquer pour maintenir cette précision dans tes calculs.",
+      "diagnostic_technique_specialise": "Calculs exacts et substitution correcte dans la fonction.",
       "pourcentage_reussite": 100.0
     },
     {
@@ -84,9 +86,9 @@
       "type": "demonstration",
       "note": 4.0,
       "note_max": 4.0,
-      "commentaire_intelligent": "Très bien, Antoine ! Tu as parfaitement factorisé l'expression en utilisant la différence de carrés.",
-      "conseil_personnalise": "Continue à pratiquer la factorisation avec des expressions plus complexes pour renforcer ta compétence.",
-      "diagnostic_technique_specialise": "Utilisation correcte de la formule de la différence de carrés. Bonne compréhension des identités remarquables.",
+      "commentaire_intelligent": "Très bien ! Tu as parfaitement factorisé l'expression en utilisant la différence de carrés. C'est une méthode classique que tu maîtrises bien.",
+      "conseil_personnalise": "Entraîne-toi à reconnaître d'autres formes de factorisation pour diversifier tes compétences.",
+      "diagnostic_technique_specialise": "Bonne utilisation de la propriété de la différence de carrés pour factoriser.",
       "pourcentage_reussite": 100.0
     },
     {
@@ -95,48 +97,382 @@
       "type": "ouverte",
       "note": 3.0,
       "note_max": 7.0,
-      "commentaire_intelligent": "Tu as bien commencé en posant l'équation pour le périmètre, mais une erreur s'est glissée dans le calcul final de x.",
-      "conseil_personnalise": "Revois la résolution d'équations avec plusieurs termes et vérifie chaque étape de calcul.",
-      "diagnostic_technique_specialise": "Erreur de calcul dans la simplification de l'équation. Vérification nécessaire des étapes intermédiaires.",
+      "commentaire_intelligent": "Tu as bien compris le principe du périmètre, mais il y a une erreur dans la mise en équation. Le périmètre est donné par 2(longueur + largeur), ce qui n'est pas correctement appliqué ici.",
+      "conseil_personnalise": "Revois la formule du périmètre d'un rectangle et assure-toi de l'appliquer correctement.",
+      "diagnostic_technique_specialise": "Erreur dans l'application de la formule du périmètre, ce qui a conduit à un calcul incorrect de x.",
       "pourcentage_reussite": 43.0
     }
   ],
   "qualite_correction": {
-    "confiance_ocr": 31.666666666666668,
+    "confiance_ocr": 95.0,
     "coherence_correction": 0.85,
     "nombre_corrections": 3,
-    "note_brute_moyenne": 4.0,
-    "ecart_type": 5.66,
+    "note_brute_moyenne": 14.33,
+    "ecart_type": 0.94,
     "notes_individuelles": [
-      12.0,
-      0.0,
-      0.0
+      15.0,
+      15.0,
+      13.0
     ]
   },
   "methode_correction": "triple_ia_moyenne",
-  "statut_publication": "brouillon",
-  "date_correction": "2025-07-21T17:51:44.327002",
+  "statut_publication": "publie",
+  "date_correction": "2025-07-23T13:39:24.007855",
   "corrections_multiples": [
     {
       "etudiant_nom": "DUBOIS",
       "etudiant_prenom": "Antoine",
-      "note_totale": 12.0,
+      "note_totale": 15.0,
       "note_maximale": 20.0,
-      "pourcentage": 60.0,
+      "pourcentage": 75.0,
       "rang_classe": 1,
-      "timestamp": "2025-07-21T17:51:25.026710",
-      "commentaires_generaux": "Antoine, tu as montré une bonne compréhension des concepts de base, notamment dans le calcul de fonctions et la factorisation. Cependant, il est crucial de vérifier tes calculs pour éviter des erreurs qui peuvent coûter des points. Continue à pratiquer et à vérifier chaque étape de tes solutions.",
+      "timestamp": "2025-07-23T13:38:13.951608",
+      "commentaires_generaux": "Antoine, tu as montré une bonne compréhension des concepts mathématiques de base, notamment dans les calculs algébriques et la factorisation. Cependant, il est crucial de bien lire et comprendre les énoncés pour éviter des erreurs qui peuvent coûter des points. Continue à travailler sur la rigueur méthodologique, surtout dans les problèmes géométriques.",
       "points_forts": [
-        "Bonne maîtrise des calculs de fonctions (Q2).",
-        "Excellente compréhension des identités remarquables (Q3)."
+        "Bonne maîtrise des calculs algébriques simples.",
+        "Capacité à factoriser correctement les expressions quadratiques.",
+        "Précision dans les calculs numériques."
       ],
       "points_amelioration": [
-        "Revoir la résolution d'équations linéaires simples (Q1).",
-        "Vérifier les calculs intermédiaires pour éviter les erreurs (Q4)."
+        "Attention à la lecture et à la transcription des énoncés.",
+        "Vérification des formules appliquées dans les problèmes géométriques.",
+        "Revoir les bases des équations pour éviter les erreurs d'interprétation."
       ],
       "conseils_personnalises": [
-        "Revois les techniques de résolution d'équations linéaires pour renforcer ta précision.",
-        "Pratique des exercices supplémentaires sur les périmètres et les équations associées.",
+        "Prends le temps de bien lire et comprendre chaque énoncé avant de commencer à résoudre.",
+        "Revois les formules géométriques de base pour éviter les erreurs d'application.",
+        "Continue à pratiquer régulièrement pour renforcer ta confiance et ta précision."
+      ],
+      "diagnostic_performance": "",
+      "questions": [
+        {
+          "numero": 1,
+          "intitule": "Q1 : \"Résoudre 2x + 5 = 13\"",
+          "type": "calcul",
+          "note": 3.0,
+          "note_max": 4.0,
+          "commentaire_intelligent": "Tu as bien commencé la résolution de l'équation, mais tu as fait une erreur dans l'énoncé initial. La bonne équation était 2x + 5 = 13. Cependant, ta méthode de résolution est correcte.",
+          "conseil_personnalise": "Vérifie toujours l'énoncé avant de commencer à résoudre le problème.",
+          "diagnostic_technique_specialise": "Erreur d'énoncé initial, mais bonne maîtrise de la méthode de résolution d'équation.",
+          "pourcentage_reussite": 75.0
+        },
+        {
+          "numero": 2,
+          "intitule": "Q2 : \"Calculer f(3) avec f(x) = 2x² - 5x + 1\"",
+          "type": "calcul",
+          "note": 5.0,
+          "note_max": 5.0,
+          "commentaire_intelligent": "Excellent travail ! Tu as correctement substitué et calculé f(3) avec une parfaite exactitude. Continue ainsi !",
+          "conseil_personnalise": "Continue à pratiquer pour maintenir cette précision dans tes calculs.",
+          "diagnostic_technique_specialise": "Calculs exacts et substitution correcte dans la fonction.",
+          "pourcentage_reussite": 100.0
+        },
+        {
+          "numero": 3,
+          "intitule": "Q3 : \"Factoriser x² - 9\"",
+          "type": "demonstration",
+          "note": 4.0,
+          "note_max": 4.0,
+          "commentaire_intelligent": "Très bien ! Tu as parfaitement factorisé l'expression en utilisant la différence de carrés. C'est une méthode classique que tu maîtrises bien.",
+          "conseil_personnalise": "Entraîne-toi à reconnaître d'autres formes de factorisation pour diversifier tes compétences.",
+          "diagnostic_technique_specialise": "Bonne utilisation de la propriété de la différence de carrés pour factoriser.",
+          "pourcentage_reussite": 100.0
+        },
+        {
+          "numero": 4,
+          "intitule": "Q4 : \"Rectangle : longueur (2x+3), largeur x, périmètre 26cm. Trouver x\"",
+          "type": "ouverte",
+          "note": 3.0,
+          "note_max": 7.0,
+          "commentaire_intelligent": "Tu as bien compris le principe du périmètre, mais il y a une erreur dans la mise en équation. Le périmètre est donné par 2(longueur + largeur), ce qui n'est pas correctement appliqué ici.",
+          "conseil_personnalise": "Revois la formule du périmètre d'un rectangle et assure-toi de l'appliquer correctement.",
+          "diagnostic_technique_specialise": "Erreur dans l'application de la formule du périmètre, ce qui a conduit à un calcul incorrect de x.",
+          "pourcentage_reussite": 43.0
+        }
+      ],
+      "questions_avec_commentaires": [
+        {
+          "numero": 1,
+          "intitule": "Q1 : \"Résoudre 2x + 5 = 13\"",
+          "type": "calcul",
+          "note": 3.0,
+          "note_max": 4.0,
+          "commentaire_intelligent": "Tu as bien commencé la résolution de l'équation, mais tu as fait une erreur dans l'énoncé initial. La bonne équation était 2x + 5 = 13. Cependant, ta méthode de résolution est correcte.",
+          "conseil_personnalise": "Vérifie toujours l'énoncé avant de commencer à résoudre le problème.",
+          "diagnostic_technique_specialise": "Erreur d'énoncé initial, mais bonne maîtrise de la méthode de résolution d'équation.",
+          "pourcentage_reussite": 75.0
+        },
+        {
+          "numero": 2,
+          "intitule": "Q2 : \"Calculer f(3) avec f(x) = 2x² - 5x + 1\"",
+          "type": "calcul",
+          "note": 5.0,
+          "note_max": 5.0,
+          "commentaire_intelligent": "Excellent travail ! Tu as correctement substitué et calculé f(3) avec une parfaite exactitude. Continue ainsi !",
+          "conseil_personnalise": "Continue à pratiquer pour maintenir cette précision dans tes calculs.",
+          "diagnostic_technique_specialise": "Calculs exacts et substitution correcte dans la fonction.",
+          "pourcentage_reussite": 100.0
+        },
+        {
+          "numero": 3,
+          "intitule": "Q3 : \"Factoriser x² - 9\"",
+          "type": "demonstration",
+          "note": 4.0,
+          "note_max": 4.0,
+          "commentaire_intelligent": "Très bien ! Tu as parfaitement factorisé l'expression en utilisant la différence de carrés. C'est une méthode classique que tu maîtrises bien.",
+          "conseil_personnalise": "Entraîne-toi à reconnaître d'autres formes de factorisation pour diversifier tes compétences.",
+          "diagnostic_technique_specialise": "Bonne utilisation de la propriété de la différence de carrés pour factoriser.",
+          "pourcentage_reussite": 100.0
+        },
+        {
+          "numero": 4,
+          "intitule": "Q4 : \"Rectangle : longueur (2x+3), largeur x, périmètre 26cm. Trouver x\"",
+          "type": "ouverte",
+          "note": 3.0,
+          "note_max": 7.0,
+          "commentaire_intelligent": "Tu as bien compris le principe du périmètre, mais il y a une erreur dans la mise en équation. Le périmètre est donné par 2(longueur + largeur), ce qui n'est pas correctement appliqué ici.",
+          "conseil_personnalise": "Revois la formule du périmètre d'un rectangle et assure-toi de l'appliquer correctement.",
+          "diagnostic_technique_specialise": "Erreur dans l'application de la formule du périmètre, ce qui a conduit à un calcul incorrect de x.",
+          "pourcentage_reussite": 43.0
+        }
+      ],
+      "detection_triche": {
+        "similarite_detectee": false,
+        "score_max": -9400.0,
+        "algorithme": "ai_analysis"
+      },
+      "necessite_revision_humaine": false,
+      "qualite_correction": {
+        "profil_utilise": "Excellence",
+        "confiance_ocr": 95.0,
+        "modele_ia": "gpt-4o",
+        "verification_double": true,
+        "expertise_specialisee": "professeur agrégé de MATHÉMATIQUES avec 15 ans d'expérience"
+      },
+      "ai_details": {
+        "notes_par_question": {
+          "Q1": 3.0,
+          "Q2": 5.0,
+          "Q3": 4.0,
+          "Q4": 3.0
+        },
+        "commentaires_par_question": {
+          "Q1": "Tu as bien commencé la résolution de l'équation, mais tu as fait une erreur dans l'énoncé initial. La bonne équation était 2x + 5 = 13. Cependant, ta méthode de résolution est correcte.",
+          "Q2": "Excellent travail ! Tu as correctement substitué et calculé f(3) avec une parfaite exactitude. Continue ainsi !",
+          "Q3": "Très bien ! Tu as parfaitement factorisé l'expression en utilisant la différence de carrés. C'est une méthode classique que tu maîtrises bien.",
+          "Q4": "Tu as bien compris le principe du périmètre, mais il y a une erreur dans la mise en équation. Le périmètre est donné par 2(longueur + largeur), ce qui n'est pas correctement appliqué ici."
+        },
+        "conseils_par_question": {
+          "Q1": "Vérifie toujours l'énoncé avant de commencer à résoudre le problème.",
+          "Q2": "Continue à pratiquer pour maintenir cette précision dans tes calculs.",
+          "Q3": "Entraîne-toi à reconnaître d'autres formes de factorisation pour diversifier tes compétences.",
+          "Q4": "Revois la formule du périmètre d'un rectangle et assure-toi de l'appliquer correctement."
+        },
+        "diagnostic_technique_par_question": {
+          "Q1": "Erreur d'énoncé initial, mais bonne maîtrise de la méthode de résolution d'équation.",
+          "Q2": "Calculs exacts et substitution correcte dans la fonction.",
+          "Q3": "Bonne utilisation de la propriété de la différence de carrés pour factoriser.",
+          "Q4": "Erreur dans l'application de la formule du périmètre, ce qui a conduit à un calcul incorrect de x."
+        },
+        "pourcentages_par_question": {
+          "Q1": 75.0,
+          "Q2": 100.0,
+          "Q3": 100.0,
+          "Q4": 43.0
+        },
+        "transcription_quality": "good",
+        "processing_time": 20.23,
+        "specialisation_matiere": "professeur agrégé de MATHÉMATIQUES avec 15 ans d'expérience"
+      }
+    },
+    {
+      "etudiant_nom": "DUBOIS",
+      "etudiant_prenom": "Antoine",
+      "note_totale": 15.0,
+      "note_maximale": 20.0,
+      "pourcentage": 75.0,
+      "rang_classe": 1,
+      "timestamp": "2025-07-23T13:38:47.877971",
+      "commentaires_generaux": "Antoine, tu as montré une bonne compréhension des concepts mathématiques, notamment dans les calculs et la factorisation. Cependant, il est crucial de prêter attention aux détails, surtout lors de la transcription des énoncés et l'application des formules géométriques. Avec un peu plus de rigueur, tu pourras facilement atteindre l'excellence.",
+      "points_forts": [
+        "Excellente maîtrise des calculs numériques et substitutions.",
+        "Bonne compréhension des concepts de factorisation.",
+        "Capacité à résoudre des équations, même avec une erreur initiale."
+      ],
+      "points_amelioration": [
+        "Attention aux erreurs d'inattention lors de la transcription des énoncés.",
+        "Revoir les formules géométriques de base pour éviter les erreurs dans les problèmes appliqués.",
+        "Vérification systématique des étapes pour éviter les erreurs de développement."
+      ],
+      "conseils_personnalises": [
+        "Prends l'habitude de relire chaque énoncé attentivement avant de commencer à résoudre.",
+        "Fais des exercices supplémentaires sur les formules géométriques pour renforcer ta compréhension.",
+        "Continue à pratiquer régulièrement pour maintenir et améliorer ton niveau."
+      ],
+      "diagnostic_performance": "",
+      "questions": [
+        {
+          "numero": 1,
+          "intitule": "Q1 : \"Résoudre 2x + 5 = 13\"",
+          "type": "calcul",
+          "note": 3.0,
+          "note_max": 4.0,
+          "commentaire_intelligent": "Très bonne démarche pour isoler x, mais une petite erreur dans l'équation initiale. Tu as écrit 2x + 15 = 13 au lieu de 2x + 5 = 13. Malgré cela, tu as bien résolu l'équation que tu as posée.",
+          "conseil_personnalise": "Vérifie toujours l'énoncé avant de commencer à résoudre pour éviter les erreurs d'inattention.",
+          "diagnostic_technique_specialise": "Erreur d'inattention dans la transcription de l'équation initiale.",
+          "pourcentage_reussite": 75.0
+        },
+        {
+          "numero": 2,
+          "intitule": "Q2 : \"Calculer f(3) avec f(x) = 2x² - 5x + 1\"",
+          "type": "calcul",
+          "note": 5.0,
+          "note_max": 5.0,
+          "commentaire_intelligent": "Excellent travail ! Tu as correctement substitué et calculé f(3) avec précision. Continue ainsi !",
+          "conseil_personnalise": "Continue à pratiquer des exercices similaires pour maintenir cette précision.",
+          "diagnostic_technique_specialise": "Calculs numériques impeccables et substitution correcte.",
+          "pourcentage_reussite": 100.0
+        },
+        {
+          "numero": 3,
+          "intitule": "Q3 : \"Factoriser x² - 9\"",
+          "type": "demonstration",
+          "note": 4.0,
+          "note_max": 4.0,
+          "commentaire_intelligent": "Parfait ! Tu as bien reconnu la différence de carrés et factorisé correctement. C'est une compétence essentielle en algèbre.",
+          "conseil_personnalise": "Entraîne-toi à identifier d'autres formes de factorisation pour renforcer ta maîtrise.",
+          "diagnostic_technique_specialise": "Maîtrise parfaite de la factorisation par différence de carrés.",
+          "pourcentage_reussite": 100.0
+        },
+        {
+          "numero": 4,
+          "intitule": "Q4 : \"Rectangle : longueur (2x+3), largeur x, périmètre 26cm. Trouver x\"",
+          "type": "ouverte",
+          "note": 3.0,
+          "note_max": 7.0,
+          "commentaire_intelligent": "Tu as bien commencé en posant l'équation du périmètre, mais une erreur s'est glissée dans le développement de l'équation. La formule correcte est 26 = 2(2x + 3 + x), ce qui donne 26 = 4x + 6 + 2x. Ensuite, 26 = 6x + 6, donc 6x = 20, et x = 20/6 = 3.33 est correct. Cependant, il y a une erreur dans l'application de la formule du périmètre.",
+          "conseil_personnalise": "Revois la formule du périmètre d'un rectangle et assure-toi de bien l'appliquer.",
+          "diagnostic_technique_specialise": "Erreur dans l'application de la formule du périmètre, nécessitant une révision des concepts géométriques de base.",
+          "pourcentage_reussite": 43.0
+        }
+      ],
+      "questions_avec_commentaires": [
+        {
+          "numero": 1,
+          "intitule": "Q1 : \"Résoudre 2x + 5 = 13\"",
+          "type": "calcul",
+          "note": 3.0,
+          "note_max": 4.0,
+          "commentaire_intelligent": "Très bonne démarche pour isoler x, mais une petite erreur dans l'équation initiale. Tu as écrit 2x + 15 = 13 au lieu de 2x + 5 = 13. Malgré cela, tu as bien résolu l'équation que tu as posée.",
+          "conseil_personnalise": "Vérifie toujours l'énoncé avant de commencer à résoudre pour éviter les erreurs d'inattention.",
+          "diagnostic_technique_specialise": "Erreur d'inattention dans la transcription de l'équation initiale.",
+          "pourcentage_reussite": 75.0
+        },
+        {
+          "numero": 2,
+          "intitule": "Q2 : \"Calculer f(3) avec f(x) = 2x² - 5x + 1\"",
+          "type": "calcul",
+          "note": 5.0,
+          "note_max": 5.0,
+          "commentaire_intelligent": "Excellent travail ! Tu as correctement substitué et calculé f(3) avec précision. Continue ainsi !",
+          "conseil_personnalise": "Continue à pratiquer des exercices similaires pour maintenir cette précision.",
+          "diagnostic_technique_specialise": "Calculs numériques impeccables et substitution correcte.",
+          "pourcentage_reussite": 100.0
+        },
+        {
+          "numero": 3,
+          "intitule": "Q3 : \"Factoriser x² - 9\"",
+          "type": "demonstration",
+          "note": 4.0,
+          "note_max": 4.0,
+          "commentaire_intelligent": "Parfait ! Tu as bien reconnu la différence de carrés et factorisé correctement. C'est une compétence essentielle en algèbre.",
+          "conseil_personnalise": "Entraîne-toi à identifier d'autres formes de factorisation pour renforcer ta maîtrise.",
+          "diagnostic_technique_specialise": "Maîtrise parfaite de la factorisation par différence de carrés.",
+          "pourcentage_reussite": 100.0
+        },
+        {
+          "numero": 4,
+          "intitule": "Q4 : \"Rectangle : longueur (2x+3), largeur x, périmètre 26cm. Trouver x\"",
+          "type": "ouverte",
+          "note": 3.0,
+          "note_max": 7.0,
+          "commentaire_intelligent": "Tu as bien commencé en posant l'équation du périmètre, mais une erreur s'est glissée dans le développement de l'équation. La formule correcte est 26 = 2(2x + 3 + x), ce qui donne 26 = 4x + 6 + 2x. Ensuite, 26 = 6x + 6, donc 6x = 20, et x = 20/6 = 3.33 est correct. Cependant, il y a une erreur dans l'application de la formule du périmètre.",
+          "conseil_personnalise": "Revois la formule du périmètre d'un rectangle et assure-toi de bien l'appliquer.",
+          "diagnostic_technique_specialise": "Erreur dans l'application de la formule du périmètre, nécessitant une révision des concepts géométriques de base.",
+          "pourcentage_reussite": 43.0
+        }
+      ],
+      "detection_triche": {
+        "similarite_detectee": false,
+        "score_max": -9400.0,
+        "algorithme": "ai_analysis"
+      },
+      "necessite_revision_humaine": false,
+      "qualite_correction": {
+        "profil_utilise": "Excellence",
+        "confiance_ocr": 95.0,
+        "modele_ia": "gpt-4o",
+        "verification_double": true,
+        "expertise_specialisee": "professeur agrégé de MATHÉMATIQUES avec 15 ans d'expérience"
+      },
+      "ai_details": {
+        "notes_par_question": {
+          "Q1": 3.0,
+          "Q2": 5.0,
+          "Q3": 4.0,
+          "Q4": 3.0
+        },
+        "commentaires_par_question": {
+          "Q1": "Très bonne démarche pour isoler x, mais une petite erreur dans l'équation initiale. Tu as écrit 2x + 15 = 13 au lieu de 2x + 5 = 13. Malgré cela, tu as bien résolu l'équation que tu as posée.",
+          "Q2": "Excellent travail ! Tu as correctement substitué et calculé f(3) avec précision. Continue ainsi !",
+          "Q3": "Parfait ! Tu as bien reconnu la différence de carrés et factorisé correctement. C'est une compétence essentielle en algèbre.",
+          "Q4": "Tu as bien commencé en posant l'équation du périmètre, mais une erreur s'est glissée dans le développement de l'équation. La formule correcte est 26 = 2(2x + 3 + x), ce qui donne 26 = 4x + 6 + 2x. Ensuite, 26 = 6x + 6, donc 6x = 20, et x = 20/6 = 3.33 est correct. Cependant, il y a une erreur dans l'application de la formule du périmètre."
+        },
+        "conseils_par_question": {
+          "Q1": "Vérifie toujours l'énoncé avant de commencer à résoudre pour éviter les erreurs d'inattention.",
+          "Q2": "Continue à pratiquer des exercices similaires pour maintenir cette précision.",
+          "Q3": "Entraîne-toi à identifier d'autres formes de factorisation pour renforcer ta maîtrise.",
+          "Q4": "Revois la formule du périmètre d'un rectangle et assure-toi de bien l'appliquer."
+        },
+        "diagnostic_technique_par_question": {
+          "Q1": "Erreur d'inattention dans la transcription de l'équation initiale.",
+          "Q2": "Calculs numériques impeccables et substitution correcte.",
+          "Q3": "Maîtrise parfaite de la factorisation par différence de carrés.",
+          "Q4": "Erreur dans l'application de la formule du périmètre, nécessitant une révision des concepts géométriques de base."
+        },
+        "pourcentages_par_question": {
+          "Q1": 75.0,
+          "Q2": 100.0,
+          "Q3": 100.0,
+          "Q4": 43.0
+        },
+        "transcription_quality": "good",
+        "processing_time": 13.63,
+        "specialisation_matiere": "professeur agrégé de MATHÉMATIQUES avec 15 ans d'expérience"
+      }
+    },
+    {
+      "etudiant_nom": "DUBOIS",
+      "etudiant_prenom": "Antoine",
+      "note_totale": 13.0,
+      "note_maximale": 20.0,
+      "pourcentage": 65.0,
+      "rang_classe": 1,
+      "timestamp": "2025-07-23T13:39:23.506611",
+      "commentaires_generaux": "Antoine, tu as montré une bonne compréhension des concepts mathématiques, notamment dans les calculs de fonctions et la factorisation. Cependant, il est crucial de vérifier chaque étape de tes calculs pour éviter les erreurs simples qui peuvent coûter des points. Continue à pratiquer et à vérifier tes résultats.",
+      "points_forts": [
+        "Bonne maîtrise des calculs de fonctions.",
+        "Excellente factorisation des expressions quadratiques.",
+        "Capacité à poser correctement les équations de problèmes géométriques."
+      ],
+      "points_amelioration": [
+        "Vérification des calculs dans les équations linéaires.",
+        "Simplification correcte des équations algébriques.",
+        "Attention aux erreurs de calcul simples."
+      ],
+      "conseils_personnalises": [
+        "Revois les techniques de résolution d'équations linéaires pour éviter les erreurs de calcul.",
+        "Pratique la simplification d'expressions algébriques pour renforcer ta précision.",
         "Garde confiance en tes capacités et continue à travailler régulièrement."
       ],
       "diagnostic_performance": "",
@@ -147,9 +483,9 @@
           "type": "calcul",
           "note": 0.0,
           "note_max": 4.0,
-          "commentaire_intelligent": "Antoine, il semble que tu aies fait une erreur dans la résolution de l'équation. Tu as correctement isolé 2x, mais l'erreur se situe dans le calcul final de x.",
-          "conseil_personnalise": "Revois la méthode de résolution des équations linéaires, en particulier la dernière étape de division.",
-          "diagnostic_technique_specialise": "Erreur de calcul dans la résolution d'une équation simple. Vérifie chaque étape pour éviter les erreurs de division.",
+          "commentaire_intelligent": "Antoine, il semble que tu as fait une erreur dans la résolution de l'équation. Tu as correctement isolé 2x, mais l'erreur se situe dans le calcul de x. Revois la soustraction initiale.",
+          "conseil_personnalise": "Vérifie toujours chaque étape de tes calculs pour éviter les erreurs simples.",
+          "diagnostic_technique_specialise": "Erreur de calcul dans la résolution d'équation linéaire. Revoir la technique de soustraction.",
           "pourcentage_reussite": 0.0
         },
         {
@@ -158,9 +494,9 @@
           "type": "calcul",
           "note": 5.0,
           "note_max": 5.0,
-          "commentaire_intelligent": "Excellent travail, Antoine ! Tu as correctement substitué et calculé la valeur de f(3). Continue sur cette lancée !",
-          "conseil_personnalise": "Pour renforcer ta compréhension, essaie de calculer f(x) pour d'autres valeurs de x.",
-          "diagnostic_technique_specialise": "Calculs exacts et substitution correcte. Bonne maîtrise des opérations sur les polynômes.",
+          "commentaire_intelligent": "Excellent travail, Antoine ! Tu as bien appliqué la fonction et effectué les calculs correctement. Continue ainsi !",
+          "conseil_personnalise": "Continue à pratiquer pour maintenir ce niveau de précision.",
+          "diagnostic_technique_specialise": "Calculs exacts et application correcte de la fonction.",
           "pourcentage_reussite": 100.0
         },
         {
@@ -169,21 +505,21 @@
           "type": "demonstration",
           "note": 4.0,
           "note_max": 4.0,
-          "commentaire_intelligent": "Très bien, Antoine ! Tu as parfaitement factorisé l'expression en utilisant la différence de carrés.",
-          "conseil_personnalise": "Continue à pratiquer la factorisation avec des expressions plus complexes pour renforcer ta compétence.",
-          "diagnostic_technique_specialise": "Utilisation correcte de la formule de la différence de carrés. Bonne compréhension des identités remarquables.",
+          "commentaire_intelligent": "Très bien, Antoine ! Tu as parfaitement factorisé l'expression en utilisant la différence de carrés. C'est une excellente démonstration.",
+          "conseil_personnalise": "Explore d'autres types de factorisation pour enrichir tes compétences.",
+          "diagnostic_technique_specialise": "Maîtrise de la technique de factorisation par différence de carrés.",
           "pourcentage_reussite": 100.0
         },
         {
           "numero": 4,
           "intitule": "Q4 : \"Rectangle : longueur (2x+3), largeur x, périmètre 26cm. Trouver x\"",
           "type": "ouverte",
-          "note": 3.0,
+          "note": 4.0,
           "note_max": 7.0,
-          "commentaire_intelligent": "Tu as bien commencé en posant l'équation pour le périmètre, mais une erreur s'est glissée dans le calcul final de x.",
-          "conseil_personnalise": "Revois la résolution d'équations avec plusieurs termes et vérifie chaque étape de calcul.",
-          "diagnostic_technique_specialise": "Erreur de calcul dans la simplification de l'équation. Vérification nécessaire des étapes intermédiaires.",
-          "pourcentage_reussite": 43.0
+          "commentaire_intelligent": "Tu as bien commencé en posant l'équation pour le périmètre, mais une erreur s'est glissée dans le calcul final de x. Revois la simplification de l'équation.",
+          "conseil_personnalise": "Reprends la résolution d'équations avec des expressions algébriques pour éviter les erreurs de simplification.",
+          "diagnostic_technique_specialise": "Erreur dans la simplification de l'équation algébrique. Revoir les étapes de simplification.",
+          "pourcentage_reussite": 57.0
         }
       ],
       "questions_avec_commentaires": [
@@ -193,9 +529,9 @@
           "type": "calcul",
           "note": 0.0,
           "note_max": 4.0,
-          "commentaire_intelligent": "Antoine, il semble que tu aies fait une erreur dans la résolution de l'équation. Tu as correctement isolé 2x, mais l'erreur se situe dans le calcul final de x.",
-          "conseil_personnalise": "Revois la méthode de résolution des équations linéaires, en particulier la dernière étape de division.",
-          "diagnostic_technique_specialise": "Erreur de calcul dans la résolution d'une équation simple. Vérifie chaque étape pour éviter les erreurs de division.",
+          "commentaire_intelligent": "Antoine, il semble que tu as fait une erreur dans la résolution de l'équation. Tu as correctement isolé 2x, mais l'erreur se situe dans le calcul de x. Revois la soustraction initiale.",
+          "conseil_personnalise": "Vérifie toujours chaque étape de tes calculs pour éviter les erreurs simples.",
+          "diagnostic_technique_specialise": "Erreur de calcul dans la résolution d'équation linéaire. Revoir la technique de soustraction.",
           "pourcentage_reussite": 0.0
         },
         {
@@ -204,9 +540,9 @@
           "type": "calcul",
           "note": 5.0,
           "note_max": 5.0,
-          "commentaire_intelligent": "Excellent travail, Antoine ! Tu as correctement substitué et calculé la valeur de f(3). Continue sur cette lancée !",
-          "conseil_personnalise": "Pour renforcer ta compréhension, essaie de calculer f(x) pour d'autres valeurs de x.",
-          "diagnostic_technique_specialise": "Calculs exacts et substitution correcte. Bonne maîtrise des opérations sur les polynômes.",
+          "commentaire_intelligent": "Excellent travail, Antoine ! Tu as bien appliqué la fonction et effectué les calculs correctement. Continue ainsi !",
+          "conseil_personnalise": "Continue à pratiquer pour maintenir ce niveau de précision.",
+          "diagnostic_technique_specialise": "Calculs exacts et application correcte de la fonction.",
           "pourcentage_reussite": 100.0
         },
         {
@@ -215,21 +551,21 @@
           "type": "demonstration",
           "note": 4.0,
           "note_max": 4.0,
-          "commentaire_intelligent": "Très bien, Antoine ! Tu as parfaitement factorisé l'expression en utilisant la différence de carrés.",
-          "conseil_personnalise": "Continue à pratiquer la factorisation avec des expressions plus complexes pour renforcer ta compétence.",
-          "diagnostic_technique_specialise": "Utilisation correcte de la formule de la différence de carrés. Bonne compréhension des identités remarquables.",
+          "commentaire_intelligent": "Très bien, Antoine ! Tu as parfaitement factorisé l'expression en utilisant la différence de carrés. C'est une excellente démonstration.",
+          "conseil_personnalise": "Explore d'autres types de factorisation pour enrichir tes compétences.",
+          "diagnostic_technique_specialise": "Maîtrise de la technique de factorisation par différence de carrés.",
           "pourcentage_reussite": 100.0
         },
         {
           "numero": 4,
           "intitule": "Q4 : \"Rectangle : longueur (2x+3), largeur x, périmètre 26cm. Trouver x\"",
           "type": "ouverte",
-          "note": 3.0,
+          "note": 4.0,
           "note_max": 7.0,
-          "commentaire_intelligent": "Tu as bien commencé en posant l'équation pour le périmètre, mais une erreur s'est glissée dans le calcul final de x.",
-          "conseil_personnalise": "Revois la résolution d'équations avec plusieurs termes et vérifie chaque étape de calcul.",
-          "diagnostic_technique_specialise": "Erreur de calcul dans la simplification de l'équation. Vérification nécessaire des étapes intermédiaires.",
-          "pourcentage_reussite": 43.0
+          "commentaire_intelligent": "Tu as bien commencé en posant l'équation pour le périmètre, mais une erreur s'est glissée dans le calcul final de x. Revois la simplification de l'équation.",
+          "conseil_personnalise": "Reprends la résolution d'équations avec des expressions algébriques pour éviter les erreurs de simplification.",
+          "diagnostic_technique_specialise": "Erreur dans la simplification de l'équation algébrique. Revoir les étapes de simplification.",
+          "pourcentage_reussite": 57.0
         }
       ],
       "detection_triche": {
@@ -250,295 +586,38 @@
           "Q1": 0.0,
           "Q2": 5.0,
           "Q3": 4.0,
-          "Q4": 3.0
+          "Q4": 4.0
         },
         "commentaires_par_question": {
-          "Q1": "Antoine, il semble que tu aies fait une erreur dans la résolution de l'équation. Tu as correctement isolé 2x, mais l'erreur se situe dans le calcul final de x.",
-          "Q2": "Excellent travail, Antoine ! Tu as correctement substitué et calculé la valeur de f(3). Continue sur cette lancée !",
-          "Q3": "Très bien, Antoine ! Tu as parfaitement factorisé l'expression en utilisant la différence de carrés.",
-          "Q4": "Tu as bien commencé en posant l'équation pour le périmètre, mais une erreur s'est glissée dans le calcul final de x."
+          "Q1": "Antoine, il semble que tu as fait une erreur dans la résolution de l'équation. Tu as correctement isolé 2x, mais l'erreur se situe dans le calcul de x. Revois la soustraction initiale.",
+          "Q2": "Excellent travail, Antoine ! Tu as bien appliqué la fonction et effectué les calculs correctement. Continue ainsi !",
+          "Q3": "Très bien, Antoine ! Tu as parfaitement factorisé l'expression en utilisant la différence de carrés. C'est une excellente démonstration.",
+          "Q4": "Tu as bien commencé en posant l'équation pour le périmètre, mais une erreur s'est glissée dans le calcul final de x. Revois la simplification de l'équation."
         },
         "conseils_par_question": {
-          "Q1": "Revois la méthode de résolution des équations linéaires, en particulier la dernière étape de division.",
-          "Q2": "Pour renforcer ta compréhension, essaie de calculer f(x) pour d'autres valeurs de x.",
-          "Q3": "Continue à pratiquer la factorisation avec des expressions plus complexes pour renforcer ta compétence.",
-          "Q4": "Revois la résolution d'équations avec plusieurs termes et vérifie chaque étape de calcul."
+          "Q1": "Vérifie toujours chaque étape de tes calculs pour éviter les erreurs simples.",
+          "Q2": "Continue à pratiquer pour maintenir ce niveau de précision.",
+          "Q3": "Explore d'autres types de factorisation pour enrichir tes compétences.",
+          "Q4": "Reprends la résolution d'équations avec des expressions algébriques pour éviter les erreurs de simplification."
         },
         "diagnostic_technique_par_question": {
-          "Q1": "Erreur de calcul dans la résolution d'une équation simple. Vérifie chaque étape pour éviter les erreurs de division.",
-          "Q2": "Calculs exacts et substitution correcte. Bonne maîtrise des opérations sur les polynômes.",
-          "Q3": "Utilisation correcte de la formule de la différence de carrés. Bonne compréhension des identités remarquables.",
-          "Q4": "Erreur de calcul dans la simplification de l'équation. Vérification nécessaire des étapes intermédiaires."
+          "Q1": "Erreur de calcul dans la résolution d'équation linéaire. Revoir la technique de soustraction.",
+          "Q2": "Calculs exacts et application correcte de la fonction.",
+          "Q3": "Maîtrise de la technique de factorisation par différence de carrés.",
+          "Q4": "Erreur dans la simplification de l'équation algébrique. Revoir les étapes de simplification."
         },
         "pourcentages_par_question": {
           "Q1": 0.0,
           "Q2": 100.0,
           "Q3": 100.0,
-          "Q4": 43.0
+          "Q4": 57.0
         },
         "transcription_quality": "good",
-        "processing_time": 21.71,
-        "specialisation_matiere": "professeur agrégé de MATHÉMATIQUES avec 15 ans d'expérience"
-      }
-    },
-    {
-      "etudiant_nom": "DUBOIS",
-      "etudiant_prenom": "Antoine",
-      "note_totale": 0.0,
-      "note_maximale": 20.0,
-      "pourcentage": 0.0,
-      "rang_classe": 1,
-      "timestamp": "2025-07-21T17:51:33.961363",
-      "commentaires_generaux": "Erreur correction IA: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
-      "points_forts": [],
-      "points_amelioration": [],
-      "conseils_personnalises": [],
-      "diagnostic_performance": "",
-      "questions": [
-        {
-          "numero": 1,
-          "intitule": "Q1 : \"Résoudre 2x + 5 = 13\"",
-          "type": "calcul",
-          "note": 0.0,
-          "note_max": 4.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
-        },
-        {
-          "numero": 2,
-          "intitule": "Q2 : \"Calculer f(3) avec f(x) = 2x² - 5x + 1\"",
-          "type": "calcul",
-          "note": 0.0,
-          "note_max": 5.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
-        },
-        {
-          "numero": 3,
-          "intitule": "Q3 : \"Factoriser x² - 9\"",
-          "type": "demonstration",
-          "note": 0.0,
-          "note_max": 4.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
-        },
-        {
-          "numero": 4,
-          "intitule": "Q4 : \"Rectangle : longueur (2x+3), largeur x, périmètre 26cm. Trouver x\"",
-          "type": "ouverte",
-          "note": 0.0,
-          "note_max": 7.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
-        }
-      ],
-      "questions_avec_commentaires": [
-        {
-          "numero": 1,
-          "intitule": "Q1 : \"Résoudre 2x + 5 = 13\"",
-          "type": "calcul",
-          "note": 0.0,
-          "note_max": 4.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
-        },
-        {
-          "numero": 2,
-          "intitule": "Q2 : \"Calculer f(3) avec f(x) = 2x² - 5x + 1\"",
-          "type": "calcul",
-          "note": 0.0,
-          "note_max": 5.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
-        },
-        {
-          "numero": 3,
-          "intitule": "Q3 : \"Factoriser x² - 9\"",
-          "type": "demonstration",
-          "note": 0.0,
-          "note_max": 4.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
-        },
-        {
-          "numero": 4,
-          "intitule": "Q4 : \"Rectangle : longueur (2x+3), largeur x, périmètre 26cm. Trouver x\"",
-          "type": "ouverte",
-          "note": 0.0,
-          "note_max": 7.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
-        }
-      ],
-      "detection_triche": {
-        "similarite_detectee": true,
-        "score_max": 100.0,
-        "algorithme": "ai_analysis"
-      },
-      "necessite_revision_humaine": true,
-      "qualite_correction": {
-        "profil_utilise": "Excellence",
-        "confiance_ocr": 0.0,
-        "modele_ia": "gpt-4o",
-        "verification_double": true,
-        "expertise_specialisee": "professeur agrégé de MATHÉMATIQUES avec 15 ans d'expérience"
-      },
-      "ai_details": {
-        "notes_par_question": {},
-        "commentaires_par_question": {},
-        "conseils_par_question": {},
-        "diagnostic_technique_par_question": {},
-        "pourcentages_par_question": {},
-        "transcription_quality": "difficult",
-        "processing_time": 5.9,
-        "specialisation_matiere": "professeur agrégé de MATHÉMATIQUES avec 15 ans d'expérience"
-      }
-    },
-    {
-      "etudiant_nom": "DUBOIS",
-      "etudiant_prenom": "Antoine",
-      "note_totale": 0.0,
-      "note_maximale": 20.0,
-      "pourcentage": 0.0,
-      "rang_classe": 1,
-      "timestamp": "2025-07-21T17:51:43.824668",
-      "commentaires_generaux": "Correction effectuée par IA spécialisée.",
-      "points_forts": [],
-      "points_amelioration": [],
-      "conseils_personnalises": [],
-      "diagnostic_performance": "",
-      "questions": [
-        {
-          "numero": 1,
-          "intitule": "Q1 : \"Résoudre 2x + 5 = 13\"",
-          "type": "calcul",
-          "note": 0.0,
-          "note_max": 4.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
-        },
-        {
-          "numero": 2,
-          "intitule": "Q2 : \"Calculer f(3) avec f(x) = 2x² - 5x + 1\"",
-          "type": "calcul",
-          "note": 0.0,
-          "note_max": 5.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
-        },
-        {
-          "numero": 3,
-          "intitule": "Q3 : \"Factoriser x² - 9\"",
-          "type": "demonstration",
-          "note": 0.0,
-          "note_max": 4.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
-        },
-        {
-          "numero": 4,
-          "intitule": "Q4 : \"Rectangle : longueur (2x+3), largeur x, périmètre 26cm. Trouver x\"",
-          "type": "ouverte",
-          "note": 0.0,
-          "note_max": 7.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
-        }
-      ],
-      "questions_avec_commentaires": [
-        {
-          "numero": 1,
-          "intitule": "Q1 : \"Résoudre 2x + 5 = 13\"",
-          "type": "calcul",
-          "note": 0.0,
-          "note_max": 4.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
-        },
-        {
-          "numero": 2,
-          "intitule": "Q2 : \"Calculer f(3) avec f(x) = 2x² - 5x + 1\"",
-          "type": "calcul",
-          "note": 0.0,
-          "note_max": 5.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
-        },
-        {
-          "numero": 3,
-          "intitule": "Q3 : \"Factoriser x² - 9\"",
-          "type": "demonstration",
-          "note": 0.0,
-          "note_max": 4.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
-        },
-        {
-          "numero": 4,
-          "intitule": "Q4 : \"Rectangle : longueur (2x+3), largeur x, périmètre 26cm. Trouver x\"",
-          "type": "ouverte",
-          "note": 0.0,
-          "note_max": 7.0,
-          "commentaire_intelligent": "",
-          "conseil_personnalise": "",
-          "diagnostic_technique_specialise": "",
-          "pourcentage_reussite": 0.0
-        }
-      ],
-      "detection_triche": {
-        "similarite_detectee": true,
-        "score_max": 100.0,
-        "algorithme": "ai_analysis"
-      },
-      "necessite_revision_humaine": true,
-      "qualite_correction": {
-        "profil_utilise": "Excellence",
-        "confiance_ocr": 0.0,
-        "modele_ia": "gpt-4o",
-        "verification_double": true,
-        "expertise_specialisee": "professeur agrégé de MATHÉMATIQUES avec 15 ans d'expérience"
-      },
-      "ai_details": {
-        "notes_par_question": {},
-        "commentaires_par_question": {},
-        "conseils_par_question": {},
-        "diagnostic_technique_par_question": {},
-        "pourcentages_par_question": {},
-        "transcription_quality": "difficult",
-        "processing_time": 5.2,
+        "processing_time": 16.43,
         "specialisation_matiere": "professeur agrégé de MATHÉMATIQUES avec 15 ans d'expérience"
       }
     }
   ],
-  "necessite_revision_humaine": true
+  "necessite_revision_humaine": false,
+  "date_maj_publication": "2025-07-23T14:16:42.998624"
 }
